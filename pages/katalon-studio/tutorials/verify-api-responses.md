@@ -15,7 +15,7 @@ If you haven't created any API tests using Katalon Studio, please follow this li
 
 Assume that you have run an API, which returned a response in JSON format
 
-![rest-response-json](https://github.com/katalon-studio/docs/blob/marketing/images/katalon-studio/tutorials/verify-api-responses/REST%20response%20in%20JSON.png)
+![rest-response-json](../../images/katalon-studio/tutorials/verify-api-responses/REST%20response%20in%20JSON.png)
 
 The below steps will show you how to verify the response:
       
