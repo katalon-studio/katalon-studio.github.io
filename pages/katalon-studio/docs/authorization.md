@@ -16,7 +16,7 @@ description:
   
 The following authorizations are supported:
 
-*   **Basic** - please refer to [this guide]("/katalon-studio/docs/authorization-basic/")
-*   **OAuth 1.0** - please refer to [this guide]("/katalon-studio/docs/authorization-oauth1/")
-*   **OAuth 2.0** - please refer to [this guide]("/katalon-studio/docs/authorization-oauth2/")
+*   **Basic** - please refer to [this guide](/katalon-studio/docs/authorization-basic/")
+*   **OAuth 1.0** - please refer to [this guide](/katalon-studio/docs/authorization-oauth1/")
+*   **OAuth 2.0** - please refer to [this guide](/katalon-studio/docs/authorization-oauth2/")
 

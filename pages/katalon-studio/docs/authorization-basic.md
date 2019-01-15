@@ -4,8 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/authorization-basic.html 
 redirect_from:
     - "/display/KD/authorization-basic/"
-    - "/display/KD/authorization-basic/"
-    - "/x/Ew-R/"
+    - "/display/KD/Authorization-basic/"
     - "/katalon-studio/docs/authorization-basic/"
 description: 
 ---

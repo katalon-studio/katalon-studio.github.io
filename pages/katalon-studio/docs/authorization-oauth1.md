@@ -4,8 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/authorization-oauth1.html 
 redirect_from:
     - "/display/KD/authorization-oauth1/"
-    - "/display/KD/authorization-oauth1/"
-    - "/x/Ew-R/"
+    - "/display/KD/Authorization-oauth1/"
     - "/katalon-studio/docs/authorization-oauth1/"
 description: 
 ---
