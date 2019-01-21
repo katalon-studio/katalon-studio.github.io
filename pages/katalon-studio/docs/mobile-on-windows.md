@@ -34,6 +34,7 @@ Setting Up Your Devices
 -----------------------
 
 *   Turn on the phone's developer mode (go to **Settings** > **Developer options**).
+
 *   Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device. In the Developer Options on Mobile User Interface, please enable:
 1. USB debugging – Debug mode when USB is connected 
 2. Install via USB – Allow installing apps via USB

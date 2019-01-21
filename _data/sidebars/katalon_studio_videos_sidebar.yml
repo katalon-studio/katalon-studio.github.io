@@ -18,23 +18,23 @@ items:
   - title: "Raghav Pal"
     tree:
     - title: "API Testing 10 - Jenkins Integration"
-      url: katalon-studio/videos/katalon-jenkins-integration.html
+      url: /katalon-studio/videos/katalon-jenkins-integration.html
     - title: "API Testing 9 - GIT Integration"
-      url: katalon-studio/videos/git-integration.html
+      url: /katalon-studio/videos/git-integration.html
     - title: "API Testing 8 - Command Line"
-      url: katalon-studio/videos/api-testing-command-line.html
+      url: /katalon-studio/videos/api-testing-command-line.html
     - title: "API Testing 7 - Result & Reporting"
-      url: katalon-studio/videos/result-reporting.html
+      url: /katalon-studio/videos/result-reporting.html
     - title: "API Testing 6 - Katalon Analytics"
-      url: katalon-studio/videos/katalon-analytics.html
+      url: /katalon-studio/videos/katalon-analytics.html
     - title: "API Testing 5 - HTTP methods GET, POST, PUT, DELETE"
-      url: katalon-studio/videos/httpmethods.html
+      url: /katalon-studio/videos/httpmethods.html
     - title: "API Testing 4 - Validations"
-      url: katalon-studio/videos/api-validations.html
+      url: /katalon-studio/videos/api-validations.html
     - title: "API Testing 3 - REST API Testing"
-      url: katalon-studio/videos/rest-api-testing.html
+      url: /katalon-studio/videos/rest-api-testing.html
     - title: "API Testing 2 - SOAP API Testing"
-      url: katalon-studio/videos/soap-api-testing.html
+      url: /katalon-studio/videos/soap-api-testing.html
     - title: "API Testing 1 - Introduction and Getting Started"
       url: /katalon-studio/videos/katalon-api-introduction.html
     - title: "Katalon Studio API Data Driven Testing"

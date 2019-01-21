@@ -1,5 +1,5 @@
 ---
-title: "Version 5.10.3"
+title: "Katalon OEM Version 5.10.3"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-5103.html
 redirect_from:
@@ -11,4 +11,4 @@ description: Release notes v5.10.3
 ---
 
 ## Bugs Fixed & Improvements
-* Fixed several minor issues of qTest integration
+* Fixed several minor issues in qTest integration
