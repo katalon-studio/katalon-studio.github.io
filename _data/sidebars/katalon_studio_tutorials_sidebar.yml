@@ -25,6 +25,8 @@ items:
             url: /katalon-studio/tutorials/create_test_case_using_script_mode.html
           - title: "How to use synchronization commands while recording"
             url: /katalon-studio/tutorials/synchronization_commands_recording.html
+          - title: "Introduction to Web Testing"
+            url: /katalon-studio/tutorials/introduction-to-web-testing.html
       - title: "API Testing"
         id: "api-testing"
         url: "/katalon-studio/tutorials/api-testing/index.html"
