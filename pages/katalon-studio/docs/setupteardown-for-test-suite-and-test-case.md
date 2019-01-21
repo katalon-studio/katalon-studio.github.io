@@ -22,7 +22,7 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 How it works
 ------------
 
-By default, these **Setup** and **Teardown** methods will not be triggered even if they match with provided trigger condition above. You need to **set skipped value from false** to true to activate related methods.
+By default, these **Setup** and **Teardown** methods will not be triggered even if they match with provided trigger condition above. You need to **set skipped value from true to false** to activate related methods.
 
 Methods consideration
 ---------------------
