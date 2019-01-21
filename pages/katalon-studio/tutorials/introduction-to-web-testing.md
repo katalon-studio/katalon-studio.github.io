@@ -1,10 +1,8 @@
 ---
 title: "Introduction to Web Testing" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/introduction-to-web-testing.html 
+permalink: katalon-studio/tutorials/introduction-to-web-testing.html 
 redirect_from:
-    - "/display/KD/Introduction+to+Web+Testing/"
-    - "/display/KD/Introduction+to+Web+Testing/"
     - "/katalon-studio/tutorials/introduction-to-web-testing/"
 description: 
 ---
