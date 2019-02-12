@@ -1,4 +1,4 @@
-Katalon Studio prompts a new browser with no cached data for every test case's execution. However, sometimes you need to verify that an action is taken when a user logs in for the first time. This test scenario requires that a new browser must be opened with some cached data - which is not the default behavior. 
+Katalon Studio automatically prompts a new browser with no cached data for every test execution. However, sometimes you need this ability, for example, to verify that an action is taken when a user logs in for the first time ever. This test scenario requires that a new browser must be opened with some cached data - which is not the default behavior. 
 
 This tutorial will guide you through a simple test scenario that can be extended for your own purposes:
 
