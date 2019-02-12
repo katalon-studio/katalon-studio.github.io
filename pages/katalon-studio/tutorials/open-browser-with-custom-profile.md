@@ -28,7 +28,7 @@ Now open Katalon Studio and create a new test case. Open the script mode and ent
   
 `// Copy the path to chromedriver.exe `  
 `String pathToChromeDriver = "{katalon_installed_folder}\configuration\resources\drivers\chromedriver_win32\chromedriver.exe" `  
-`System.setProperty("webdriver.chrome.driver", ) `
+`System.setProperty("webdriver.chrome.driver", pathToChromeDriver) `
 
   
 `// It is important that this chromeProfilePath ends with User Data and not with the profile folder (Profile 2) `  
