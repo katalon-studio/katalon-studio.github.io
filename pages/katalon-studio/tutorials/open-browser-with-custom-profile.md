@@ -4,8 +4,7 @@ This tutorial will guide you through a simple test scenario that can be extended
 
 *   Open a browser.
 *   Navigate to gmail.com
-
-**Expected result:** The browser will re-direct you to your inbox.
+*   The browser will re-direct you to your inbox.
 
 **Chrome**
 
