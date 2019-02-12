@@ -11,11 +11,11 @@ This tutorial will guide you through a simple test scenario that can be extended
 
 The first step is to create a Chrome Profile that contains your gmail account's information. Open your Chrome browser and navigate to `chrome://settings/` . There clicking on **Manage other people** will open a panel. Click on **Add person** and choose the name for your Chrome Profile. 
 
-![](/api/images/cub4200rU0oH/image.png)
+![](../../images/katalon-studio/tutorials/open_browser_with_custom_profile/new_profile.png)
 
 This will open a new Chrome instance with a new profile. Now proceed to log in your gmail account in this instance. After that, navigate to `chrome://version/` . You should copy the path to the profile of this Chrome instance to your notepad or a text editor for latter use. 
 
-![](/api/images/DX4JFtzYZRMr/image.png)
+![](../../images/katalon-studio/tutorials/open_browser_with_custom_profile/profile_path.png)
 
 Now open Katalon Studio and create a new test case. Open the script mode and enter the following code:
 
