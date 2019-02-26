@@ -8,7 +8,7 @@ redirect_from:
 description: Release notes v6.0
 ---
 ### Introducing Katalon Store Integration
-Katalon Store is a platform that leads users to the world of amazing plugins for Katalon Studio. This is also a collaborative marketplace for both end-users and developers to build add-on products, in order to maximize Katalon Studio's test automation capabilities. Katalon Store website is available at www.store.katalon.com.  
+Katalon Store is a platform that leads users to the world of amazing plugins for Katalon Studio. This is also a collaborative marketplace for both end-users and developers to build add-on products, in order to maximize Katalon Studio's test automation capabilities. Katalon Store website is available at https://store.katalon.com/.  
 
 ![](../../images/katalon-studio/new/version-60/3.png)
 Each plugin in Katalon Store comes with a detailed description so that you can preview the functions and features before installing. 
