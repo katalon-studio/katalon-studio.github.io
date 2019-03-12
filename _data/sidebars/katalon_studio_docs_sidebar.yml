@@ -111,8 +111,8 @@ items:
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
-          - title: "TestRail Integration"
-            url: /katalon-studio/docs/testrail-integration.html
+          - title: "TestRail Plugin Integration"
+            url: /katalon-studio/docs/testrail-plugin-integration.html
           - title: "Test Case Management With Tags"
             url: /katalon-studio/docs/test-case-management-with-tags.html
           - title: "Dynamic Querying Test Suite"
