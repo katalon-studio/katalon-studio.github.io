@@ -9,7 +9,7 @@ description: "The tutorial will show you how to integrate between Katalon Studio
 
 Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic B2B gifting platform.
 
-![](../../images/katalon-studio/tutorials/testrail-integration/Artboard 1 copy 2.png)
+
 
 ## Introduction      
 
