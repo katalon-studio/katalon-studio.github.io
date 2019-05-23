@@ -6,7 +6,7 @@ redirect_from:
     - "/index.html"
     - "/display/KD/"
 ---
-Welcome to Katalon Knowledge Base! Here you can find Katalon products manual, tips and tricks on various topics, as well as guidelines to help you create successful test automation projects.
+Welcome to Katalon Knowledge Base! Here you can find Katalon products manual, tips and tricks on various topics, as well as guidelines to help you create successful test automation projects. ABC
 
 To make the best out of Katalon Knowledge Base, we recommend you go over the documentation of each product, to get an overview of the tools you will be working with. This comprehensive documentation is the quickest way to get answers to many of your questions.
 
