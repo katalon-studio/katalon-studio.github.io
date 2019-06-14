@@ -9,14 +9,14 @@ redirect_from:
     - "/katalon-studio/docs/console-mode-execution/"
 description:
 ---
-> Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version.**
+> Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version**.
 
 You can execute automation test without launching Katalon Studio by using command line mode execution. 
 
 Execute Katalon in CMD
 ----------------------
 
-1.  Open the command prompt and navigate to the folder of your Katalon Studio build, which contains katalon.exe (Windows) or Applications folder (Mac OS) or katalon (Linux) file.
+1.  Open the command prompt and navigate to the folder of your Katalon Studio build: katalon.exe (Windows), Applications folder (Mac OS), or katalon (Linux) file.
 
 2.  Enter the following syntax to execute automation test:
 
@@ -43,12 +43,12 @@ Execute Katalon in CMD
     ![](../../images/katalon-studio/docs/console-mode-execution/image2016-4-6-133A153A3.png)
 
 
-3.  Press Enter to start execution.
+3.  Press **Enter** to start execution.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------
 
-In order to be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+To use in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
 
 General Options 
 ---------------
@@ -299,7 +299,7 @@ Integration Options
 Command Builder
 ---------------
 
-You can quickly generate commands to use in console mode by following the steps below:  
+Use the following steps to quickly generate commands to use in console mode:  
 
 1.  Click on **Build CMD** from the main toolbar.
     ![](../../images/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)
@@ -311,7 +311,7 @@ You can quickly generate commands to use in console mode by following the steps 
 
     <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform to execute the test on. Select an environment</p><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
 
-3.  Click **Generate Command** after you're done with the configuration.
+3.  Click **Generate Command** after completing the configuration.
     ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
 
 
@@ -351,4 +351,4 @@ We support running console mode using **console.properties** file where you ca
     katalon -propertiesFile="<absolute path to console.properties file" -runMode=console -browserType=IE 
     ```
 
-    In the above example, since we also declare _browserType_ option in command line, the automation test will be executed using IE instead of Chrome.
+    In the example above, since we also declare _browserType_ option in command line, the automation test will be executed using IE instead of Chrome.

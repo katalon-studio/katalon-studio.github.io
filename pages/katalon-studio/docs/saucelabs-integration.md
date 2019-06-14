@@ -10,9 +10,9 @@ redirect_from:
 description: 
 ---
 
-> Install [Sauce Labs Integration](https://store.katalon.com/product/3/Jira-Integration) to use this feature.
+> Install [Sauce Labs Integration](https://store.katalon.com/product/75/Sauce-Labs-Integration) to use this feature.
 
-For more detailed instructions of how to use the plugin, visit [this document](katalon-studio/docs/saucelabs-plugin.html).
+For more detailed instructions of how to use the plugin, visit [this document](https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html).
 
 <details><summary>Deprecated Content</summary>
 

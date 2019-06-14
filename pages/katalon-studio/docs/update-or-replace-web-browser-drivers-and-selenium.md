@@ -1,5 +1,5 @@
 ---
-title: "Update or Replace Web Browser Drivers and Selenium" 
+title: "Replace WebDriver binaries and Selenium library" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html 
 redirect_from:
@@ -9,68 +9,70 @@ redirect_from:
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium/"
 description: 
 ---
-For manually replacing and updating other versions of WebDrivers and Selenium, please refer to this [guide](/x/1xtO). 
 
-> Katalon Studio team strongly suggest users **NOT** to manually replace or update any WebDrivers. Any changes in drivers may cause runtime bugs for Katalon Studio application.
+## Replace Selenium library
 
-## How to Replace 
-
-> For Katalon Studio v5.1.0 and later 
-
-### **WINDOWS**
-
-**Selenium**
-
--   **Download** the desired Selenium version **[here.](http://selenium-release.storage.googleapis.com/index.html)**
-    (Select **only** Selenium 3.0+ and higher version than 3.7.1)
--   **Delete** existing selenium-server-standalone-3.x.jar  
--   **Copy** preferred **driver** into this folder  
-    &lt;Katalon Studio folder&gt;\\configuration\\resources\\lib
-
-
-**Chromedriver**
-
--   **Download** preferred Chromedriver **[here.](https://sites.google.com/a/chromium.org/chromedriver/downloads)**
--   **Copy** downloaded Chromedriver and **paste** into Katalon Studio
-    folder
-
-> You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit
-> Windows.
-
--   -   &lt;Katalon
-        Studiofolder&gt;\\configuration\\resources\\drivers\\chromedriver\_win32
-    -   &lt;Katalon
-        Studiofolder&gt;\\configuration\\resources\\drivers\\chromedriver\_win64
-
-
-**Firefox (Gecko Driver)**
-
--   **Download** preferred Gecko Driver **[here.](https://github.com/mozilla/geckodriver/releases)**
+Location:
+- Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
+- macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
     
--   **Copy** downloaded Gecko driver and **paste** into Katalon Studio
-    folder
-    -   &lt;Katalon Studio
-        folder&gt;\\configuration\\resources\\drivers\\firefox\_win32
-    -   &lt;Katalon Studio
-        folder&gt;\\configuration\\resources\\drivers\\firefox\_win64
+## Replace WebDriver binaries (application-level)
 
-**IEDriverServer**
+### Windows
 
-Download preferred IEDriver **[here.](http://selenium-release.storage.googleapis.com/index.html)**
+**Chrome**
 
-### **MAC OSX**
+You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 
-**[Selenium](http://selenium-release.storage.googleapis.com/index.html)**
+Location:
+- `<Katalon Studio folder>\configuration\resources\drivers\chromedriver_win32`
+- `<Katalon Studio folder>\configuration\resources\drivers\chromedriver_win64`
 
--    /Applications/Katalon
-    Studio.app/Contents/Eclipse/configuration/resources/lib
+**Firefox**
 
-**[Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)**
+Location:
+- `<Katalon Studio folder>\configuration\resources\drivers\firefox_win32`
+- `<Katalon Studio folder>\configuration\resources\drivers\firefox_win64`
 
--   /Applications/Katalon
-    Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver\_mac
+**Internet Explorer**
 
-**[Firefox (Gecko Driver)](https://github.com/mozilla/geckodriver/releases)**
+Location:
+- `<Katalon Studio folder>\configuration\resources\drivers\iedriver_win32`
+- `<Katalon Studio folder>\configuration\resources\drivers\iedriver_win64`
 
--   /Applications/Katalon
-    Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox\_mac
+**Edge**
+
+Location:
+- `<Katalon Studio folder>\configuration\resources\drivers\edgedriver`
+
+### macOS
+
+**Chrome**
+
+Location:
+- `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac`
+
+**Firefox**
+
+Location:
+- `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox_mac`
+
+## Replace WebDriver binaries (project-level)
+
+WebDriver binaries can be replaced at project-level by copying new files into the `Include` directory inside the project.
+
+Location:
+- `Include/drivers/chromedriver_win32/chromedriver.exe`
+- `Include/drivers/chromedriver_win64/chromedriver.exe`
+- `Include/drivers/chromedriver_mac64/chromedriver`
+- `Include/drivers/chromedriver_linux32/chromedriver`
+- `Include/drivers/chromedriver_linux64/chromedriver`
+- `Include/drivers/geckodriver_win32/geckodriver.exe`
+- `Include/drivers/geckodriver_win64/geckodriver.exe`
+- `Include/drivers/geckodriver_mac64/geckodriver`
+- `Include/drivers/geckodriver_linux32/geckodriver`
+- `Include/drivers/geckodriver_linux64/geckodriver`
+- `Include/drivers/iedriver_win32/IEDriverServer.exe`
+- `Include/drivers/iedriver_win64/IEDriverServer.exe`
+- `Include/drivers/edgedriver_win32/MicrosoftWebDriver.exe`
+- `Include/drivers/edgedriver_win64/MicrosoftWebDriver.exe`

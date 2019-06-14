@@ -11,7 +11,7 @@ If you are interested in using Docker images instead, please see [https://github
 If you are using Windows or macOS we will have similar tutorials soon.
 
 
-## **Install Jenkins**
+## Install Jenkins
 
 Please follow official instructions by Jenkins.
 
@@ -19,7 +19,7 @@ Please follow official instructions by Jenkins.
 
 
 
-## **Install Google Chrome**
+## Install Google Chrome
 
 
 ```
@@ -30,7 +30,7 @@ sudo apt -y -f install
 
 
 
-## **Install Xvfb**
+## Install Xvfb
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Xvfb):
 
@@ -43,14 +43,14 @@ sudo apt install -y xvfb
 
 
 
-## **Install Katalon plugin for Jenkins**
+## Install Katalon plugin for Jenkins
 
 Go to _Manage Jenkins > Manage Plugins > Available_ and find Katalon plugin on the list.
 
 
 ![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture1.png)
 
-## **Create and configure a new Jenkins project**
+## Create and configure a new Jenkins project
 
 To keep it simple, I will use _Freestyle project_.
 
@@ -90,7 +90,7 @@ jenkins@ubuntu:~$ cd Katalon_Studio_Linux_64-5.10.1 && pwd
 The last command will print the location you need (`/var/lib/jenkins/Katalon_Studio_Linux_64-5.10.1`).
 
 
-## **Run, Katalon, run!**
+## Run the Jenkins job
 
 Go to the Jenkins project page (e.g. at [http://localhost:8060/jenkins/job/test/](http://localhost:8060/jenkins/job/test/) if its name is “test”), click **Build Now**.
 

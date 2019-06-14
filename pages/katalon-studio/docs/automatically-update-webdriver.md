@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/automatically-update-webdriver.html 
 description: Guide on how to update WebDriver automatically.
 ---
-Since [version 6.1.3 - 6.1.4](https://docs.katalon.com/katalon-studio/new/version-613.html), you can update WebDriver automatically. Each improvement can be described in detail as follows:
+Starting in [version 6.1.3 - 6.1.4](https://docs.katalon.com/katalon-studio/new/version-613.html), you can update WebDriver automatically. Each improvement can be described in detail as follows:
 
 * Updated Chrome's WebDriver
 

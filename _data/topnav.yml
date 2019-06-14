@@ -14,8 +14,6 @@ topnav:
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
-    - title: Samples
-      external_url: https://github.com/katalon-studio-samples
     - title: FAQs
       url: /faqs/licensing.html
       parenturl: /faqs

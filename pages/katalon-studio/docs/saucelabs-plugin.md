@@ -37,6 +37,6 @@ Then click “**Generate Sauce Labs Custom Profile**” to finalize your profile
 
 ### 5. On Sauce Labs Dashboard, under Automated Tests tab the following result is displayed:
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/6-result.png)
-
 ![](../../images/katalon-studio/docs/saucelabs-plugin/7-result.png)
+
+![](../../images/katalon-studio/docs/saucelabs-plugin/6-result.png)
