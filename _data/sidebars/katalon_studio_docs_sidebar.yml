@@ -830,8 +830,10 @@ items:
                 url: /katalon-studio/docs/jenkins-plugin-windows.html
               - title: "On Ubuntu"
                 url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-          - title: "Bamboo Plugin"
+          - title: "Bamboo Add-on"
             url: /katalon-studio/docs/bamboo-plugin.html
+          - title: "Azure DevOps Extension"
+            url: /katalon-studio/docs/azure-devops-extension.html
       - title: "Test Management Integrations"
         tree:
           - title: "qTest Integration"
