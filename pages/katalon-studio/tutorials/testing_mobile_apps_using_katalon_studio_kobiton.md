@@ -1,8 +1,10 @@
 ---
 title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
 description: "In this tutorial, we will show you how to speed up your mobile apps testing project using Katalon Studio and Kobiton’s mobile devices on cloud."
+redirect_from:
+    - "/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html"
 ---
 ![Testing mobile apps using Katalon Studio and Kobiton's cloud-based device farm](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png)
 

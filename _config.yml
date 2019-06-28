@@ -8,12 +8,9 @@ github_editme_path: katalon-studio/docs
 
 staging: true
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  toc_levels: 2..3
+markdown: CommonMarkGhPages
+commonmark:
+  extensions: ["strikethrough", "autolink", "table"]
 
 incremental: false
 

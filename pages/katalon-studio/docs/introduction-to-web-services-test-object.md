@@ -1,14 +1,14 @@
 ---
-title: "Introduction to Web Services Test Object" 
+title: "Introduction to Web Services Test Object"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/introduction-to-web-services-test-object.html 
+permalink: katalon-studio/docs/introduction-to-web-services-test-object.html
 redirect_from:
     - "/display/KD/Introduction+to+Web+Services+Test+Object/"
     - "/display/KD/Introduction%20to%20Web%20Services%20Test%20Object/"
     - "/x/BALR/"
     - "/katalon-studio/docs/introduction-to-web-services-test-object/"
     - "/display/KD/Web+Service/"
-description: 
+description:
 ---
 Katalon Studio v5.4 introduces all-new Web Services Testing for both RESTful and SOAP. Functionalities and UI have been enhanced to provide the following benefits:
 
@@ -22,5 +22,5 @@ Katalon Studio v5.4 introduces all-new Web Services Testing for both RESTful an
 
 The below documentation have covered these great changes as well as updated guides for managing a Web Service object.
 
-1.  [RESTful ](/pages/viewpage.action?pageId=13697545)
+1.  [RESTful ](/katalon-studio/docs/restful)
 2.  [SOAP](/pages/viewpage.action?pageId=13697583)

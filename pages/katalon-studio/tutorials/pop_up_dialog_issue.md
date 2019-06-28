@@ -1,7 +1,9 @@
 ---
 title: "Solving Pop-up dialog issue with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/pop_up_dialog_issue.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/pop_up_dialog_issue.html
+redirect_from:
+    - "katalon-studio/tutorials/pop_up_dialog_issue.html"
 description: "When performing automation testing, you may sometimes deal with pop-up dialog issue. This tutorial will show you how to deal with that."
 ---
 When performing automation testing, you may sometimes deal with pop-up dialog issue that needs to be handled differently from normal test objects. This tutorial shows you how to deal with pop-up controls.

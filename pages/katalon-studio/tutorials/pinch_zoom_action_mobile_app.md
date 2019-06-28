@@ -1,7 +1,9 @@
 ---
 title: "Performing Pinch to Zoom In Action"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/pinch_zoom_action_mobile_app.html
+redirect_from:
+    - "katalon-studio/tutorials/pinch_zoom_action_mobile_app.html"
 description: "This tutorial is to test the pinch zoom action in the mobile app with sample project using Android O.S."
 ---
 This tutorial is to test the **Pinch To Zoom In** action in the mobile app. The app used for this demonstration can be downloaded here. We will be using Android O.S for this tutorial, so please make sure that your Android device **API** is **greater** than **18**.

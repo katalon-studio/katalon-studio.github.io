@@ -1,7 +1,9 @@
 ---
 title: "Handling Alert Dialog in Mobile App"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_alert_dialog_mobile_app.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_alert_dialog_mobile_app.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_alert_dialog_mobile_app.html"
 description: "Learn how to test the alert dialog which usually appears on mobile app when there are suspicious/potentially dangerous actions using Katalon Studio."
 ---
 An alert dialog box is used to send a message to the user. An alert box displays a dialog with a specific message and allows user to accept or reject the alert (OK/Cancel buttons).

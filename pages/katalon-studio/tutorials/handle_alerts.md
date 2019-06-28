@@ -1,7 +1,9 @@
 ---
 title: "How to Handle Alerts"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_alerts.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_alerts.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_alerts.html"
 description: "The alerts that are used to notify users on a Web page can be handled using Katalon Studio. This tutorial shows how to do so with HTML examples."
 ---
 What is an alert?

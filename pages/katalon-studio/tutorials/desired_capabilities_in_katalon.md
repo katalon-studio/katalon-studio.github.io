@@ -1,8 +1,10 @@
 ---
 title: "Desired Capabilities in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/desired_capabilities_in_katalon.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/desired_capabilities_in_katalon.html
 description: "Desired Capabilities was introduced in Selenium to work with various browser capabilities such as handling browser cookies, SSL security popup, etc."
+redirect_from:
+    - "/katalon-studio/tutorials/desired_capabilities_in_katalon.html"
 ---
 What are Desired Capabilities?
 ------------------------------

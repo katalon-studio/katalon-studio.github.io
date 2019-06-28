@@ -1,22 +1,25 @@
 ---
 title: "Katalon Studio Integration with TestRail"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/katalon-testrail-integration.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/katalon-testrail-integration.html
+redirect_from:
+    - "/katalon-studio/tutorials/katalon-testrail-integration.html"
 description: "The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems."
 ---
 
-> ## TestRail plugin is now available
-> To get TestRail plugin, visit [Katalon Store](https://store.katalon.com)
+This feature has been moved to [TestRail integration plugin](https://store.katalon.com/product/13/TestRail-Integration) for Katalon Studio.
+
+<details><summary>Deprecated Content</summary>
 
 #### About the author:
 
 Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic B2B gifting platform.
 
-## Introduction      
+## Introduction
 
 The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems. For instance, test execution results from Katalon Studio can be synchronized with test cases from TestRail, making it easier and more productive for testers to manage and report test coverage as well as test results.
 
-To execute this integration, you should have the basic knowledge of [Katalon Studio](https://www.katalon.com/), [TestRail](https://www.gurock.com/), [Groovy](http://groovy-lang.org/), [Katalon GlobalVariables](https://docs.katalon.com/katalon-studio/docs/create-global-variables-on-the-fly.html), [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/sample-custom-keywords.html), [Test Listeners](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html), and Web Requests. 
+To execute this integration, you should have the basic knowledge of [Katalon Studio](https://www.katalon.com/), [TestRail](https://www.gurock.com/), [Groovy](http://groovy-lang.org/), [Katalon GlobalVariables](https://docs.katalon.com/katalon-studio/docs/create-global-variables-on-the-fly.html), [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/sample-custom-keywords.html), [Test Listeners](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html), and Web Requests.
 
 ## Prerequisites
 
@@ -42,7 +45,7 @@ In the default profile of Katalon Studio, create these three variables:
 
 * **G_run_testrail_tc_status**: a list of executed TestRail test case status
 
-* **G_testrail_run_id’**: current TestRail test run ID
+* **G_testrail_run_id**: current TestRail test run ID
 
 ### Set up Katalon Studio test cases
 
@@ -63,7 +66,7 @@ for (def n : (0 .. tc_ids.length - 1)) {
 .add(tc_ids[n])
 GlobalVariable.G_run_testrail_tc_status
 .add(testCaseContext.getTestCaseStatus())
-}	
+}
 }
 ```
 
@@ -79,19 +82,19 @@ def get_tests(String id) {
 	RequestObject ro = new RequestObject('Get TestRail tests')
 	ro.setRestRequestMethod('GET')
 	ro.setRestUrl('https://%YOUR PROJECT%.testrail.io/index.php?/api/v2/get_tests/' + id)
-	
+
 	def httpheader = new ArrayList<TestObjectProperty>()
 	httpheader.add(new TestObjectProperty(
 'Content-Type', ConditionType.EQUALS, 'application/json'))
-	
+
 httpheader.add(new TestObjectProperty(
-'Authorization', ConditionType.EQUALS, 
+'Authorization', ConditionType.EQUALS,
 '%YOUR TESTRAIL CREDENTIALS ENCODED TO BASE64%'))
 
 ro.setHttpHeaderProperties(httpheader)
 ro.setBodyContent(
 new HttpTextBodyContent('', 'UTF-8', 'application/json'))
-		
+
 def response = WSBuiltInKeywords.sendRequest(ro)
 return slurper.parseText(response.getResponseText())
 }
@@ -107,14 +110,14 @@ def update_run(String id, String array) {
 	def ro = new RequestObject('Update TestRail test run')
 	ro.setRestRequestMethod('POST')
 	ro.setRestUrl('https://%YOUR PROJECT%.testrail.io/index.php?/api/v2/update_run/' + id)
-	
+
 	def httpheader = new ArrayList<TestObjectProperty>()
 	httpheader.add(new TestObjectProperty(
 'Content-Type', ConditionType.EQUALS, 'application/json'))
 httpheader.add(new TestObjectProperty(
 'Authorization', ConditionType.EQUALS, '%YOUR TESTRAIL CREDENTIALS ENCODED TO BASE64%'))
 ro.setHttpHeaderProperties(httpheader)
-	
+
 def body ="{'include_all': false,'case_ids': " + array + "}"
 WebUI.comment('body = ' + body)
 ro.setBodyContent(
@@ -139,7 +142,7 @@ def add_results(String id, String request) {
 	httpheader.add(new TestObjectProperty(
 'Content-Type', ConditionType.EQUALS, 'application/json'))
 httpheader.add(new TestObjectProperty(
-'Authorization', ConditionType.EQUALS, 
+'Authorization', ConditionType.EQUALS,
 '%YOUR TESTRAIL CREDENTIALS ENCODED TO BASE64%'))
 ro.setHttpHeaderProperties(httpheader)
 
@@ -147,8 +150,8 @@ ro.setHttpHeaderProperties(httpheader)
 WebUI.comment('body = ' + request)
 ro.setBodyContent(new HttpTextBodyContent(
 request, 'UTF-8', 'application/json'))
-	
-	
+
+
 def response = WSBuiltInKeywords.sendRequest(ro)
 def response_array = slurper.parseText(response.getResponseText())
 return slurper.parseText(response.getResponseText())
@@ -220,3 +223,5 @@ WebUI.callTestCase(findTestCase('%replace this with path to your test case, for 
 ## Conclusion
 
 Integrating between Katalon Studio and TestRail can help users not only reduce the complexity and cost during the testing process, but also  improve the productivity and efficiency in automation testing and test case management. To learn more about these two tools, visit Katalon Studio and TestRail websites.
+
+</details>

@@ -1,8 +1,10 @@
 ---
 title: "Locators and Object Identification"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/locators_object_identification.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/locators_object_identification.html
 description: "Learn how to identify Locators and Object using Spy Mobile in Katalon Studio with sample project provided by the Katalon Team."
+redirect_from:
+    - "/katalon-studio/tutorials/locators_object_identification.html"
 ---
 In each test case, **locators** are an abstract way to define how an element can be found.
 

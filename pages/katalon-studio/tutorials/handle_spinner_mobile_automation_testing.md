@@ -1,7 +1,9 @@
 ---
 title: "Handling Spinner in Mobile Automation Testing"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_spinner_mobile_automation_testing.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html"
 description: "A step-by-step guide on how to handle spinner in mobile automation testing using Katalon Studio. This behavior is very common in mobile software development"
 ---
 The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). This behavior is very common in mobile software development. An example is choosing a location out of a list of US states and territories.

@@ -1,7 +1,9 @@
 ---
 title: "Handling Horizontal Swipe in Mobile Automation"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/horizontal_swipe_mobile_automation.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/horizontal_swipe_mobile_automation.html
+redirect_from:
+    - "katalon-studio/tutorials/horizontal_swipe_mobile_automation.html"
 description: "This tutorial illustrates Horizontal Swiping actions (swipe horizontally from left to right) in the mobile app with a sample project."
 ---
 Swipe Horizontally from Left to Right

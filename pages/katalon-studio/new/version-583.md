@@ -1,6 +1,6 @@
 ---
 title: "Version 5.8.2 & Version 5.8.3"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-583.html
 redirect_from:
     

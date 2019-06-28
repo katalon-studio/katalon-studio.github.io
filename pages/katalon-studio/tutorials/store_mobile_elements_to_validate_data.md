@@ -1,7 +1,9 @@
 ---
 title: "Using List to Store the Mobile Elements to Validate Data"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/store_mobile_elements_to_validate_data.html
+redirect_from:
+    - "katalon-studio/tutorials/store_mobile_elements_to_validate_data.html"
 description: "To select a mobile element (ex: Radio button) from a List, we need to capture all the button elements in a collection and pick the desired Radio button."
 ---
 Scenario

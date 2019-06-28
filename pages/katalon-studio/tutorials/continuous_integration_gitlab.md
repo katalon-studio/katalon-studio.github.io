@@ -1,7 +1,10 @@
 ---
 title: "Continuous integration with Gitlab"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/continuous_integration_gitlab.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/continuous_integration_gitlab.html
+redirect_from:
+    - "/katalon-studio/tutorials/continuous_integration_gitlab.html"
+
 description: "This tutorial walks through the steps needed to automatically run your Katalon test suites when you push any change on your Gitlab repository."
 ---
 

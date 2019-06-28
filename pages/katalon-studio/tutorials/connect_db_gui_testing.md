@@ -1,7 +1,9 @@
 ---
 title: "How to perform Database Testing using Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/connect_db_gui_testing.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/connect_db_gui_testing.html
+redirect_from:
+    - "/katalon-studio/tutorials/connect_db_gui_testing.html"
 description: "Katalon Studio allows users to create custom keywords to address specific needs. With custom keywords, you can connect and perform database testing."
 ---
 Katalon Studio allows users to [create custom keywords](/katalon-studio/tutorials/advanced/create-custom-keyword/) to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.

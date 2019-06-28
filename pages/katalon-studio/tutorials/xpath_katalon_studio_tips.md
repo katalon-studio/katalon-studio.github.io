@@ -1,7 +1,9 @@
 ---
 title: "Common tips for using Xpath in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/xpath_katalon_studio_tips.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/xpath_katalon_studio_tips.html
+redirect_from:
+   - "katalon-studio/tutorials/xpath_katalon_studio_tips.html"
 description: "XPath is one of the most powerful HTML selectors for test automation. Learn more with many hands-on practices to use XPath in Katalon Studio!"
 ---
 

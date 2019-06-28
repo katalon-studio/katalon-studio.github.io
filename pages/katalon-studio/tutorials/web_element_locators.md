@@ -1,7 +1,9 @@
 ---
 title: "Handling Web element locators using Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/web_element_locators.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/web_element_locators.html
+redirect_from:
+    - "katalon-studio/tutorials/web_element_locators.html"
 description: "In Web testing, locator is the only way to identify an element on a page. This tutorial will help your team choose a good approach for Web element locators."
 ---
 1.  [Understanding Your Application Under Test (AUT)](#understand-aut)

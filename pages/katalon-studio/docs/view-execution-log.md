@@ -1,13 +1,14 @@
 ---
-title: "View Execution Log" 
+title: "View Execution Log"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/view-execution-log.html 
+permalink: katalon-studio/docs/view-execution-log.html
 redirect_from:
     - "/display/KD/View+Execution+Log/"
     - "/display/KD/View%20Execution%20Log/"
     - "/x/6ANO/"
     - "/katalon-studio/docs/view-execution-log/"
-description: 
+    - "/katalon-studio/tutorials/viewing_execution_logs.html"
+description:
 ---
 Once your test cases/test suites finish execution, you can review the results on the **Log Viewer** views.
 
@@ -25,10 +26,10 @@ Using the filter options, you can specify what type of logs to be displayed:
 | Warning | Show only the log messages indicating that a test step is failed but accepted as warning. |
 | Not Run | Show only the log messages indicating that a test step is skipped. |
 
-Standard view vs. Tree View
+Tabular view vs. Tree View
 ---------------------------
 
-The **Log Viewer** can be viewed in different modes: **standard** view and **tree** view. You can switch to tree view by selecting the **Tree View** toggle as illustrated below:
+The **Log Viewer** can be viewed in different modes: **tabular** view and **tree** view. You can switch to tree view by selecting the **Tree View** toggle as illustrated below:
 
 ![](../../images/katalon-studio/docs/view-execution-log/image2017-6-30-213A263A35.png)
 

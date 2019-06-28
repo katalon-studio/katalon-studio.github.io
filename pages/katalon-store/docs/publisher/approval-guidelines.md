@@ -9,14 +9,7 @@ description: Guidelines for publisher for approval process
 ---
 After developing and testing your plugin, your next step is to submit it for approval. To uphold standards of quality and reliability that our users expect, all publicly listed plugins are subject to an approval process.
 
-**Which plugins are subject to the approval process?**
-
-
-
-*   Publicly listed, new plugins
-*   Pricing changes
-
-If an earlier plugin version is already approved, routine version updates are exempt from the approval process except in the above cases.
+Note: If an earlier plugin version is already approved, routine version updates are exempt from the approval process.
 
 
 ## Approval process
@@ -25,9 +18,10 @@ Approval times vary depending on current volume and the Katalon Store team's ava
 
 
 
-1. **Log in** to [https://store.katalon.com](https://store.katalon.com) with your Katalon account.
-2. Click **Publish a new plugin** from the **My plugin** menu in the upper right.
-3. Upload your file and fill out the plugin information form. 
-4. Accept the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement), and submit your plugin.
-5. You'll be notified via email that your submission was successful, and **receive a URL to view** the approval status.
-6. Once approved, your plugin is published to Katalon Store.
+- **Log in** to [https://store.katalon.com](https://store.katalon.com) with your Katalon account.
+- Click **New Plugin** button in [Published Plugins](https://store.katalon.com/manage/publisher) tab.
+- Upload your file and fill out the plugin information form (Refer to [Plugin Documents Guidelines](https://docs.katalon.com/katalon-store/docs/publisher/document-guidelines.html#submit-documents-for-published-plugins)) to learn how to submit documents for published plugins).
+- Accept the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement), and submit your plugin.
+- Back to [Published Plugins](https://store.katalon.com/manage/publisher) tab and click **Publish** below your plugin.
+- You'll be notified via email that your submission was successful, and **receive a URL to view** the approval status.
+- Once approved, your plugin is published to Katalon Store.

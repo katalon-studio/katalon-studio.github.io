@@ -9,6 +9,8 @@ description:
 ---
 Below is a general guide on how to configure Katalon Studio on VSO ([https://visualstudio.microsoft.com/team-services/](https://visualstudio.microsoft.com/team-services/)) with the assumptions that you are already familiar with common VSO terms such as _agent, build, task_......
 
+<details><summary>Deprecated Content</summary>
+
 1.     **Setting up agent:**
 
 Follow setup guide: [https://www.visualstudio.com/en-us/docs/build/actions/agents/v2-windows](https://www.visualstudio.com/en-us/docs/build/actions/agents/v2-windows) to set up and run a local agent.
@@ -40,3 +42,5 @@ Configure your project to be built with the agent. In this example, the agent is
 That's it!. When the project is built, it will start Katalon Studio and execute the input test suite based on your command.
 
 ![](../../images/katalon-studio/docs/vststfsvso-integration/5.png)
+
+</details>

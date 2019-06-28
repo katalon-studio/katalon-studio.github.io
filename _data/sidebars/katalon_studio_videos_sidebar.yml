@@ -23,10 +23,6 @@ items:
       url: /katalon-studio/videos/katalon-troubleshooting-debugging.html 
     - title: "How to use Headless Browsers"
       url: /katalon-studio/videos/katalon-headless-browsers.html
-    - title: "API Testing 13 - Extracting data from JSON responses and chaining request"
-      url: /katalon-studio/videos/extracting-data-from-json-responses-and-chaining-requests.html
-    - title: "API Testing 12 - Extracting data from XML responses and chaining requests"
-      url: /katalon-studio/videos/extracting-data-from-xml-responses-and-chaining-requests.html
     - title: "API Testing 11 - Validate XML and JSON Response Values"
       url: /katalon-studio/videos/xml-json-response-validation.html
     - title: "API Testing 10 - Jenkins Integration"
@@ -51,8 +47,6 @@ items:
       url: /katalon-studio/videos/katalon-api-introduction.html
     - title: "Katalon Studio API Data Driven Testing"
       url: /katalon-studio/videos/katalon-api-data-driven-testing.html
-    - title: "Katalon Studio: API Chaining: How to send values from one API to other"
-      url: /katalon-studio/videos/send-values-from-one-api.html
     - title: "Katalon Studio v5.5 (Beta): What’s New?"
       url: /katalon-studio/videos/katalon_studio_5_5_beta.html
     - title: "Katalon Studio 23: How to Create Environments | Execution Profiles"

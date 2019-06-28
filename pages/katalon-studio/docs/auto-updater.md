@@ -1,5 +1,5 @@
 ---
-title: "Auto-updater" 
+title: "Update Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/auto-updater.html 
 redirect_from:
@@ -9,8 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/auto-updater/"
 description: 
 ---
-> Since Katalon Studio V5.4
-> 
+
 > **Known Issues**
 > 
 > *   Product **reactivation** is **required** after installed new version successfully.

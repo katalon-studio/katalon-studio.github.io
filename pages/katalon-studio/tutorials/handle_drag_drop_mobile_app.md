@@ -1,7 +1,9 @@
 ---
 title: "Handling Drag and Drop in Mobile App"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_drag_drop_mobile_app.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_drag_drop_mobile_app.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_drag_drop_mobile_app.html"
 description: "This tutorial demonstrates how to handle drag and drop action in a mobile application using Katalon Studio."
 ---
 In this tutorial, we will see how to handle drag and drop action in a mobile application using Katalon Studio. The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/Drag%20and%20Drop.apk).

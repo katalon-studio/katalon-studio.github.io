@@ -1,8 +1,10 @@
 ---
 title: "Create your first API test with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/create_first_api_test_katalon_studio.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/create_first_api_test_katalon_studio.html
 description: "API testing has become more important. This tutorial will demonstrate how to use Katalon Studio to create your first API test from scratch."
+redirect_from:
+    - "/katalon-studio/tutorials/create_first_api_test_katalon_studio.html"
 ---
 
 Introduction

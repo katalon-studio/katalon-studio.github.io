@@ -17,8 +17,6 @@ For Windows users, you can access the Katalon Studio Preferences by selecting *
 
 For macOS users, you can access the Katalon Studio Preferences by selecting **Katalon Studio > Katalon Studio Preferences** from the menu.
 
-![](../../images/katalon-studio/docs/katalon-studio-preferences/35812629_224073458386612_6870838111748751360_n.png)
-
 For more details, please refer to the following articles:
 
 *   [Test Case Preferences](/katalon-studio/docs/test-case-preferences.html)

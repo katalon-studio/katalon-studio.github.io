@@ -1,7 +1,9 @@
 ---
 title: "Handling iFrame issue with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handling_iframe_issue.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handling_iframe_issue.html
+redirect_from:
+    - "katalon-studio/tutorials/handling_iframe_issue.html"
 description: "A very common type of control used in website is the HTML iframe. This article shows you how to handle iframe issue properly in Katalon Studio."
 ---
 A very common type of control used in website is the HTML iframe. And this control needs to be handled in a specific manner when testing. This article shows you how to handle iframes properly in Katalon Studio.

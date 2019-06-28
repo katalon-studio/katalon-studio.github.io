@@ -1,8 +1,11 @@
 ---
 title: "Introduction to API Testing"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/introduction_api_testing.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/introduction_api_testing.html
 description: "This article aims to provide an overview of API testing with the What - When - Why-questions that hopefully help you achieve API testing successfully."
+redirect_from:
+    - "/katalon-studio/tutorials/api-testing/index.html"
+    - "/katalon-studio/tutorials/introduction_api_testing.html"
 ---
 This article aims to provide an overview of API testing with candid answers to the What – When – Why-questions that hopefully shed light on this mysterious land hidden inside the boundary of testing – engineering realm.
 

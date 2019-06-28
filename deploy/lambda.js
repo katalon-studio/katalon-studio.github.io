@@ -19,7 +19,7 @@ exports.handler = (event, context, callback) => {
         // Replace the received URI with the URI that includes the index page
         request.uri = newuri;
 
-    } else if (!(/.*\.[a-z]+$/.test(olduri))) {
+    } else if (!(/.*\.[a-zA-Z]+$/.test(olduri))) {
 
         // Match any '/' that occurs at the end of a URI. Replace it with a default index
         var newuri = olduri + '/index.html';

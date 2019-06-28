@@ -84,13 +84,15 @@ sh ./Scripts/bootstrap.sh -d
             t =     0.00s     Set Up
     ```
 
+    ![Build-Output](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
+
 
 *   (OPTIONAL) To completely verify , you can try accessing the WebDriverAgent server status (note: you _must_ be on the same network as the device, and know its IP address, from Settings => Wi-Fi => Current Network)
 
     ```groovy
     export DEVICE_URL='http://<device IP>:8100'
     export JSON_HEADER='-H "Content-Type: application/json;charset=UTF-8, accept:application/json"'
-    curl -X GET $JSON_HEADER $DEVICE_URL/status
+    curl -X GET '$JSON_HEADER' $DEVICE_URL/status
     ```
 
     ```groovy

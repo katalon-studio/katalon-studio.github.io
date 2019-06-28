@@ -1,7 +1,9 @@
 ---
 title: "Automation testing of Shadow DOM elements with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/shadow_dom_elements_testing.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/shadow_dom_elements_testing.html
+redirect_from:
+    - "katalon-studio/tutorials/shadow_dom_elements_testing.html"
 description: "What is Shadow DOM? This article will show you how Katalon Studio solves Shadow DOM problem and let you test shadow DOM elements in a straightforward way"
 ---
 What is Shadow DOM?

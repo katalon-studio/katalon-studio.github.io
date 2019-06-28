@@ -1,7 +1,9 @@
 ---
 title: "Solving Wait-time issue with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/solving_common_issue_wait_time.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/solving_common_issue_wait_time.html
+redirect_from:
+    - "katalon-studio/tutorials/solving_common_issue_wait_time.html"
 description: "This article will guide users through leveraging the wait time to handle the situations: network stability, internet bandwidth, the performance of the AUT."
 ---
 Automation execution usually does not carry out exactly as scripted due to many factors involved during execution such as network stability, internet bandwidth, the performance of the AUT, and the performance of the executing computer. This article will guide users through leveraging delayed time to handle such situations.

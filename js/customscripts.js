@@ -235,7 +235,7 @@ $(function() {
         search.addWidget(
             instantsearch.widgets.searchBox({
                 container: '#search-box',
-                placeholder: 'Search the docs',
+                placeholder: 'Search',
                 magnifier: false,
                 wrapInput: false,
                 autofocus: false,
@@ -259,7 +259,7 @@ $(function() {
             instantsearch.widgets.hitsPerPageSelector({
                 container: '#hits-per-page-selector',
                 items: [
-                    {value: 4, label: '', default: true}
+                    {value: 6, label: '', default: true}
                 ]
             })
         );

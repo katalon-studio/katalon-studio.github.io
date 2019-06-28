@@ -1,9 +1,10 @@
 ---
 title: "Editing test cases using manual mode"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/create_test_case_using_manual_mode.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/create_test_case_using_manual_mode.html
 redirect_from:
     - "/display/KD/Test+Case+Manual+View/"
+    - "/katalon-studio/tutorials/create_test_case_using_manual_mode.html"
 
 description: "This tutorial will give users with less experience in programming step-by-step instruction to create an automation test case in manual mode."
 ---

@@ -2,10 +2,49 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+$headings: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+$font: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+$body-text-size: 16px;
+
 @import "docker/docker";
+
+.content {
+  ul li {
+    font-size: $body-text-size;
+  }
+  b, strong {
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.875em;
+  }
+  h6 {
+    font-size: 0.85em;
+  }
+  line-height: 1.6;
+}
 
 #gta {
   padding: 0;
+}
+
+code {
+  white-space: normal;
+  word-break: break-all;
 }
 
 .button {

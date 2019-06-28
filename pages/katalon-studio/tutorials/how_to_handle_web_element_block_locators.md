@@ -1,7 +1,9 @@
 ---
 title: "Web Element Locators - How to group elements into a unique block"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/how_to_handle_web_element_block_locators.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/how_to_handle_web_element_block_locators.html
+redirect_from:
+    - "katalon-studio/tutorials/how_to_handle_web_element_block_locators.html"
 description: "Web Element Locators - How to group elements into a unique block"
 ---
 

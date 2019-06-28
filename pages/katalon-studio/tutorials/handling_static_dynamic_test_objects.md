@@ -1,7 +1,9 @@
 ---
 title: "Handling static and dynamic Test Objects"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handling_static_dynamic_test_objects.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handling_static_dynamic_test_objects.html
+redirect_from:
+    - "katalon-studio/tutorials/handling_static_dynamic_test_objects.html"
 description: "Test Objects are one of the vital parts of building an automation project. This tutorial shows the approaches for handling different types of test objects."
 ---
 

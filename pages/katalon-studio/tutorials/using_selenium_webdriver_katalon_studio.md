@@ -1,7 +1,9 @@
 ---
 title: "How to use Selenium WebDriver in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/using_selenium_webdriver_katalon_studio.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/using_selenium_webdriver_katalon_studio.html
+redirect_from:
+   - "katalon-studio/tutorials/using_selenium_webdriver_katalon_studio.html"
 description: "In this article, you will be presented a few best practices to benefit directly from Selenium WebDriver in Katalon Studio. Learn more!"
 ---
 

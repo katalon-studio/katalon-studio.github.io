@@ -9,6 +9,13 @@ redirect_from:
     - "/katalon-studio/docs/saucelabs-integration/"
 description: 
 ---
+
+> Install [Sauce Labs Integration](https://store.katalon.com/product/75/Sauce-Labs-Integration) to use this feature.
+
+For more detailed instructions of how to use the plugin, visit [this document](https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html).
+
+<details><summary>Deprecated Content</summary>
+
 To integrate with Saucelabs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to SauceLabs.
@@ -28,3 +35,5 @@ To integrate with Saucelabs, you need to execute your test scripts using '[Remot
 *   Other settings are gotten from step #3.
 
 5\. The final step will be selecting '**Remote**' item for execution.
+
+</details>

@@ -1,20 +1,22 @@
 ---
-title: "Introduction to Web Testing" 
+title: "Introduction to Web Testing"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/tutorials/introduction-to-web-testing.html 
+permalink: katalon-studio/docs/introduction-to-web-testing.html
 redirect_from:
     - "/katalon-studio/tutorials/introduction-to-web-testing/"
-description: 
+    - "/katalon-studio/tutorials/web-testing/index.html"
+    - "/katalon-studio/tutorials/introduction-to-web-testing.html"
+description:
 ---
-This is a basic tutorial about how to begin testing with Katalon Studio. If you are completely new to Katalon Studio or have just begun testing with the app, this ‘Getting Started’ doc is for you. We will go over a few principal steps, basic concepts, and operations in Katalon Studio. You will learn how to create projects, create, verify, debug, as well as successfully plan and execute test cases. 
+This is a basic tutorial about how to begin testing with Katalon Studio. If you are completely new to Katalon Studio or have just begun testing with the app, this ‘Getting Started’ doc is for you. We will go over a few principal steps, basic concepts, and operations in Katalon Studio. You will learn how to create projects, create, verify, debug, as well as successfully plan and execute test cases.
 
-Before You Begin 
+Before You Begin
 -----
 
-Katalon Studio is simple and easy to use, even for users without much programming and scripting experience. If you are new to Katalon Studio but have some basic Java and/or Groovy skills and a brief understanding of testing, then you should have no problem making use of this tool. 
+Katalon Studio is simple and easy to use, even for users without much programming and scripting experience. If you are new to Katalon Studio but have some basic Java and/or Groovy skills and a brief understanding of testing, then you should have no problem making use of this tool.
 
 - To start, first, you need to verify if your computer meets the [System Requirements](https://docs.katalon.com/katalon-studio/docs/system-requirements.html) of Katalon Studio.
-- For how to install and set up Katalon Studio, check it out [here](https://docs.katalon.com/katalon-studio/tutorials/install_setup_katalon_studio.html) . 
+- For how to install and set up Katalon Studio, check it out [here](https://docs.katalon.com/katalon-studio/tutorials/install_setup_katalon_studio.html) .
 
 Get Ready!
 -----
@@ -47,7 +49,7 @@ driver.quit();
 
 Click _‘Run’_ to see how it works.
 
-However, writing test cases—especially in high volume at once—can be time-consuming. If Selenium is not a choice of your preference, worry not. The above test case, if written in Katalon Studio’s standard format, would look like this: 
+However, writing test cases—especially in high volume at once—can be time-consuming. If Selenium is not a choice of your preference, worry not. The above test case, if written in Katalon Studio’s standard format, would look like this:
 
 ```groovy
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
@@ -57,7 +59,7 @@ WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Passwo
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 ```
 
-Click _‘Run’_ to see how it works 
+Click _‘Run’_ to see how it works
 
 The Katalon Studio beginning steps seem relatively self-explanatory. However, you might wonder where the “ChromeDriver” is, what the “click” and “findTestObject” methods are, or how to use the “Page_CURA Healthcare Service/a_Make Appointment” argument. Let’s go through them together.
 
@@ -78,18 +80,18 @@ To put into practice, here's how a team of testers and developers can apply thes
 
 Next, let’s add verification script to the test case to know whether the login process is successful or not.
 
-From the first test case, we have known the basic of how Katalon Studio script works. Now let’s move further to create a more realistic test case with the “Make Appointment” header verification. 
+From the first test case, we have known the basic of how Katalon Studio script works. Now let’s move further to create a more realistic test case with the “Make Appointment” header verification.
 
 Katalon Studio provides a rich set of verification keywords to easily deal with that requirement. Once again, this kind of script can be done in both Manual or Script mode.
 
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/2.png)
- 
+
  ```groovy
 - WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment', FailureHandling.STOP_ON_FAILURE)
 ```
 
 After that, the execution results can be checked in the [Log Viewer](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html). To learn how to view execution logs, visit this [doc](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html).
- 
+
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/3.png)
 
 **Step 4: Debugging the test case**
@@ -97,7 +99,7 @@ After that, the execution results can be checked in the [Log Viewer](https://doc
 Let’s intentionally make the test case fail by changing the verification text to “Make another Appointment.” In Katalon Studio, there are several ways to check for the failure reasons.
 
 **Option 1: Investigate error logs**
- 
+
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/4.png)
 
 **Option 2: Debug mode**
@@ -105,19 +107,19 @@ Let’s intentionally make the test case fail by changing the verification text 
 To investigate complex scenarios, Katalon Studio provides a debug mechanism which works the same as the code debug mechanism in advanced developer IDE.
 
 ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/5.png)
- 
+
 
 **Option 3: Manual debug**
 
 The ‘Recording’ feature of Katalon Studio has its own method to debug as well.
 You can continue to record the failed test case, run the error test step, then investigate and fix the issue directly in the recording mode. See the examples below:
- 
+
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/6.png)
 
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/7.png)
 
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/8.png)
- 
+
 
 
 **Step 5: Plan the test case in a test suite**
@@ -141,7 +143,7 @@ The final step is executing the test cases in the designed test suite. Here's ho
 Next steps
 ----
 
-Congratulations! Now you have learned the first and basic steps when using Katalon Studio. Once you have completed your first testing project, head on over to our tutorials and guides to learn more. 
+Congratulations! Now you have learned the first and basic steps when using Katalon Studio. Once you have completed your first testing project, head on over to our tutorials and guides to learn more.
 
 
 For further assistance, you can also ask for help on [Katalon Forums](https://forum.katalon.com/) or [Katalon Chat](https://gitter.im/katalon-studio/Lobby).

@@ -7,8 +7,7 @@ redirect_from:
     - "/display/KD/RESTful/"
     - "/x/CQLR/"
     - "/katalon-studio/docs/restful/"
-    - "/pages/viewpage.action?pageId=13697545"
-    
+
 description:
 ---
 > *   You can **add** Web Services request directly from the object details view. Simply click on the _plus_ icon to add to _New_ or any _Existing_ test case.

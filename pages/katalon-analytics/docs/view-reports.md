@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KA/View%20Reports/"
     - "/x/2RxO/"
     - "/katalon-analytics/docs/view-reports/"
+    - "/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html"
 description:
 ---
 Once Test Reports are uploaded, Katalon Analytics will automatically analyze Katalon Studio test execution data to give you meaningful visualizations including charts, graphs, and filters. Katalon Analytics powerful dashboard allows users to have richer looks at test execution by presenting various reports such as Status, Performance, Execution Summary, and Execution Details. 
@@ -65,6 +66,8 @@ Katalon Analytics will show a **pie chart** to represent the number of each Test
 
 Allows users to quickly view **all** test cases that have the status of **Failed**. The testing team will be able to locate quickly where exactly the test has failed.
 
+| Field | Description |
+| --- | --- |
 | **ID** | This ID is a global ID of Analytic tools |
 | **Name** | Name of test case |
 | **Folder** | Containing folder of test case in Katalon Studio |
@@ -78,7 +81,8 @@ Allows users to quickly view **all** test cases that have the status of **Failed
 
 Katalon Analytics display all test suites in the current viewing execution in the report. To view detail, click on the **ID** of Test Suite. Katalon Analytics will display in-depth look about the Test Suite.
 
-
+| Field | Description |
+| --- | --- |
 | **ID** | Generated Analytic global ID |
 | **OS** | Operating System was run on |
 | **Browser** | Selected browser the test was run on |

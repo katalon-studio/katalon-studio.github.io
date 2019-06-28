@@ -1,7 +1,9 @@
 ---
 title: "How to parse JSON responses in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/parse_json_responses.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/parse_json_responses.html
+redirect_from:
+    - "katalon-studio/tutorials/parse_json_responses.html"
 description: "This tutorial offers the best practices for retrieving information from JSON responses and parsing the JSON format in Katalon Studio. Learn more!"
 ---
 

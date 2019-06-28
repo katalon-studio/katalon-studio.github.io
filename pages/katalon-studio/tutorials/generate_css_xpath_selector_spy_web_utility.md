@@ -1,7 +1,9 @@
 ---
 title: "Generating reliable object selector using Spy Web utility"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
+redirect_from:
+    - "katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility.html"
 description: "Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on CSS Selector & Xpath selector. Learn more!"
 ---
 Katalon Studio [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668) provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. There are two widely used selectors: **CSS** and **XPath**.

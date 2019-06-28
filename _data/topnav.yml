@@ -6,21 +6,15 @@ topnav:
     - title: Manuals
       url: /katalon-studio/docs/index.html
       parenturl: /katalon-studio/docs
-    - title: Tutorials
-      url: /katalon-studio/tutorials/index.html
-      parenturl: /katalon-studio/tutorials
+    - title: Plugins
+      external_url: https://store.katalon.com
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
-    - title: Samples
-      external_url: https://github.com/katalon-studio-samples
     - title: FAQs
       url: /faqs/licensing.html
       parenturl: /faqs
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
-    - title: What's new
-      url: /katalon-studio/new/index.html
-      parenturl: /katalon-studio/new
     - title: Support
       external_url: https://www.katalon.com/support-service-options

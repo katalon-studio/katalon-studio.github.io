@@ -4,7 +4,7 @@ sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_test_case_record_playback.html
 description: "A quick guide to create test case using Record & Playback feature of Katalon Studio, a complete test automation tool."
 ---
-<iframe src="https://www.youtube.com/embed/afXzrgucXkE?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe src="https://www.youtube.com/embed/q5xrnAolITw" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 **A quick guide to create test  case using Record and Playback feature of Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. Katalon Studio helps you start automation testing on web on mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 

@@ -1,7 +1,9 @@
 ---
 title: "How to Handle File Uploads"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_file_uploads.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_file_uploads.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_file_uploads.html"
 description: "This tutorial will show you how to handle the file upload feature and verifying downloaded files using Katalon Studio."
 ---
 In general, we need to automate scenarios like uploading a file into the application for attaching profile pictures or documents. This tutorial demonstrates handling the file upload feature and verifying downloaded files using Katalon Studio.
@@ -10,6 +12,11 @@ What is File Upload in testing?
 -------------------------------
 
 The file upload widget is the input tag having attribute **type** equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
+
+-------------------------------
+Since Katalon Studio 6.1.5, please install [Upload File Keywords](https://store.katalon.com/product/69/UploadFile-Keywords) plugin to use this feature.
+
+<details><summary>Deprecated Content</summary>
 
 Let's work on the case in which we need to upload a file and validate whether the file is uploaded.
 
@@ -116,24 +123,24 @@ WebUI.delay(10)
 Assert.assertTrue(isFileDownloaded(downloadPath, 'smilechart.xls'), 'Failed to download Expected document')
  
 boolean isFileDownloaded(String downloadPath, String fileName) {
-boolean flag = false
-'Creating an object for File and passing the download Path as argument'
-File dir = new File(downloadPath)
-'Creating an Array where it will store all the files from that folder'
-File[] dir_contents = dir.listFiles()
- 
-println('Total Files Available in the folder are : ' + dir_contents.length)
-'Iterating a loop for number of files available in the folder to verify file name in the folder'
-for (int i = 0; i < dir_contents.length; i++) {
-println('File Name at 0 is : ' + dir_contents[i].getName())
-'Verifying the file name is available in the folder '
-if (dir_contents[i].getName().equals(fileName)) {
-'If the file is found then it will return a value as true'
-return flag = true
-}
-}
-'If the file is found then it will return a value as false'
-return flag
+    long timeout = 5 * 60 * 1000
+    long start = new Date().getTime()
+    boolean downloaded = false
+    File file = new File(downloadPath, fileName)
+    while (!downloaded) {
+        KeywordUtil.logInfo("Checking file exists ${file.absolutePath}")
+        downloaded = file.exists()
+        if (downloaded) {
+            file.delete() // remove this line if you want to keep the file
+        } else {
+            long now = new Date().getTime()
+            if (now - start > timeout) {
+                break
+            }
+            Thread.sleep(3000)
+        }
+    }
+    return downloaded
 }
 
 ```
@@ -141,3 +148,5 @@ return flag
 We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Upload File](/display/KD/%5BWebUI%5D+Upload+File) guideline.
+
+</details>

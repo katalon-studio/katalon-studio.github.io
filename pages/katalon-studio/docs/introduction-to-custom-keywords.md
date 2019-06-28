@@ -8,6 +8,7 @@ redirect_from:
     - "/x/8gAM/"
     - "/katalon-studio/docs/introduction-to-custom-keywords/"
     - "/display/KD/Define+custom+keywords/"
+    - "/katalon-studio/tutorials/create_custom_keyword.html"
 description: 
 ---
 In addition to built-in keywords, users can define custom keywords to extend the capability of Katalon Studio. Once created, custom keywords can be used when implementing test cases just like other built-in keywords. 

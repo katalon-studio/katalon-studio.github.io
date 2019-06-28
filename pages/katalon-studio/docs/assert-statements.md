@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Assert%20Statements/"
     - "/x/sAAM/"
     - "/katalon-studio/docs/assert-statements/"
+    - "/tutorials/common-validation/"
+    - "/katalon-studio/tutorials/common_validation_statements_katalon_studio.html"
 description: 
 ---
 An assert statement contains a **boolean expression** where this condition must hold true for the test execution to continue. Thus, execution of the assertion causes evaluation of the **boolean expression** and an error is reported if the expression evaluates as **false**.

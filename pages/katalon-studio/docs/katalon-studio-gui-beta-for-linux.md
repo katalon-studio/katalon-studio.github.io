@@ -27,11 +27,7 @@ description:
     ```
     
 
-*   *   If there is an issue with Apium installation command, please use this command instead (source: [https://github.com/appium/appium/issues/10020](https://github.com/appium/appium/issues/10020))
-        
-        ```groovy
-        sudo npm install -g appium --unsafe-perm=true --allow-root
-        ```
+*   *   If you see an EACCES error with Appium installation command, follow the instructions here (source: [https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally))
         
 
 *   *   You may need to [set](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa) JAVA_HOME if you encounter error related to Java 'jar' file can't be found: 

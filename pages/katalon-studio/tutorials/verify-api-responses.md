@@ -1,7 +1,9 @@
 ---
 title: "How to verify API responses in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/verify-api-responses.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/verify-api-responses.html
+redirect_from:
+    - "katalon-studio/tutorials/verify-api-responses.html"
 description: "The tutorial will show you how to verify an API responses with a simple step"
 ---
 

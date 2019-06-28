@@ -9,36 +9,25 @@ redirect_from:
     - "/katalon-analytics/docs/from-command-line/"
 description: 
 ---
+
 > Katalon Analytics supports various test automation reports type including Katalon Studio, Katalon Recorder, and JUnit.
 
-From Command Line
------------------
+Download **Reports Uploader** [here](https://github.com/katalon-studio/report-uploader/releases).
 
-> *   For uploading from Command Line
->     *   Download Katalon Studio **Reports Uploader** [here](http://download.katalon.com/resources/katalon-report-uploader-0.0.3.jar)
->     *   [Java JRE](https://www.java.com/en/download/manual.jsp) installed (How to set up Java environment [guide](https://www.tutorialspoint.com/java/java_environment_setup.htm))
+Install [Java JRE](https://www.java.com/en/download/manual.jsp).
 
-> For Mac OS users, please change the **path** of Katalon Reports folder when using the syntax in **Terminal**
+Get the path to your Katalon Report folders, e.g. `C:\Users\alex\Katalon Studio\Web Sample\Reports\Test Suite\20190523_143946`.
 
-1.  Download Katalon Studio Reports Uploader [here](http://download.katalon.com/resources/katalon-report-uploader-0.0.3.jar).  
-      
-    
-2.  In Katalon Analytics, navigate to **Settings > Projects**. Provide a **name** for the new project. Click **Create**. Once a project is **created**, Katalon Analytics will generate a **Project ID**. You will **need** this **ID** to **upload** Katalon Studio execution **report** later.  
-      
-    
-3.  In Katalon Studio. Navigate to Test Explorers, select Report folder. Right-click > Open Containing Folder. Get the path of your Katalon Report folders.  
-    i.e: C:\\Users\\abc\\Katalon Studio\\Web Sample\\Reports
-4.  Start Command Prompt, use the below syntax to upload Katalon Report to Katalon Analytics
+Start Command Prompt, use the following command to upload Katalon Report to Katalon Analytics:
 
-```groovy
-java -jar katalon-report-uploader-0.0.3.jar --projectId=3 --path="d:\katalon-reports" --email=admin@mail.me --password=admin --type=katalon
+```
+java -jar katalon-report-uploader-0.0.5.jar --projectId=3 --path="d:\katalon-reports" --email=admin@mail.me --password=admin --type=katalon
 ```
 
-  
-_Where_
+Where:
 
-| katalon-report-uploader-0.0.3.jar | Jar file path can be an absolute path or relative path |
-| projectId | Katalon Analytics project ID |
-| path=" " | Local path of Katalon Studio Reports folder that you located from step 1 |
-| email and password | Katalon Analytics credentials |
-| type | Depending on the reports format. It can be one of the values: "katalon", "JUnit", or "katalon_recorder" |
+* `projectId`: Katalon Analytics project ID
+* `path`: Local path of Katalon Studio Reports folder that you located from step 1
+* `email`: Email that is used for logging into Katalon Analytics
+* `password`: API Key (recommended)
+* `type`: one of the values "katalon", "JUnit", or "katalon_recorder"

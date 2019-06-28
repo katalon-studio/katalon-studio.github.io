@@ -11,7 +11,7 @@ description:
 ---
 Katalon Analytics allows you to filter and sort any tables to view the execution information that matters. Any issues or trouble areas can be quickly drilled-down to with provided quality insights.
 
-To **filter** any table, click on the plus "**+**" button and a drop-down menu will be displayed to let you select the column to be filtered. Next, fill out all the required criteria and click **check button** to apply. It is also possible to add **multiple** filters. Simply click on the "**+**" button to add more filters and will be applied in sequence. 
+To **filter** any table, click on the plus "**+**" button and a drop-down menu will be displayed to let you select the column to be filtered. Next, fill out all the required criteria and click the **check button** to apply. It is also possible to add **multiple** filters. Simply click on the "**+**" button to add more filters and will be applied in sequence. 
 
 Once finished, Katalon Analytics table will be filtered and show relevant data.
 

@@ -1,9 +1,10 @@
 ---
 title: "How to execute/debug certain steps of a test case"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/execute_debug_certain_steps.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/execute_debug_certain_steps.html
 redirect_from:
     - "/display/KD/Execute+test+from+specific+step/"
+    - "/katalon-studio/tutorials/execute_debug_certain_steps.html"
 description: "To save users from the trouble of having to re-run all unnecessary steps, Katalon Studio provides two ways to execute/ debug at their preferred steps."
 ---
 Creating automation test cases is a repetitive task that requires a lot of editing and rerunning test cases. In many automation tools, when the test case fails and users makes certain changes to the script, they usually have to execute the whole script all over again to make sure the test is executed as expected. To save users from the trouble of having to re-run all unnecessary steps, Katalon Studio provides two ways so that users can start the test at their preferred steps:

@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Internet%20Explorer%20Configurations/"
     - "/x/iwEo/"
     - "/katalon-studio/docs/internet-explorer-configurations/"
+    - "/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html"
 description: 
 ---
 In order to run automation test on Internet Explorer, you need the following setup:

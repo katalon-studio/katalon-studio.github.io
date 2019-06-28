@@ -9,6 +9,8 @@ redirect_from:
     - "/katalon-studio/docs/manage-test-data/"
 description: 
 ---
+> Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/bind-as-string.html) for example of Variable binding for Test Data with option bind into test case as string enabled/disabled.
+
 Create an Excel Test Data
 -------------------------
 

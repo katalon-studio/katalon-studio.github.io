@@ -3,8 +3,9 @@ title: "Applitools Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/applitools-integration.html
 
-description:
+description: Instructions of how to use Applitools plugin
 ---
+> Install the plugin [here](https://store.katalon.com/product/44/Applitools-Integration).
 
 
 ### Applitools settings
@@ -66,3 +67,6 @@ Besides the two basic custom keywords above, this plugin also provides a set of 
 	 * @return A wrapped WebDriver which enables Eyes trigger recording and frame handling.
 	 */
 	static Eyes eyesOpenWithBaseline(String baselineName, String testName, RectangleSize viewportSize)
+
+
+*Note: This plugin is used to integrate Katalon Studio with Applitools. A plugin license in Katalon Store does not cover any Applitools licenses.*

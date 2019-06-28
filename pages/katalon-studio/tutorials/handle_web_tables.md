@@ -1,7 +1,9 @@
 ---
 title: "How to handle Web Tables"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_web_tables.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_web_tables.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_web_tables.html"
 description: "A Web table is a collection of rows and columns. This article will show you how to handle web tables using Katalon Studio."
 ---
 What is Web Tables?

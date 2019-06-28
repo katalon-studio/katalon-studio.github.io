@@ -1,6 +1,6 @@
 ---
 title: "Version 5.10.1"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-5101.html
 redirect_from:
     - "/katalon-studio/new/version-5101/"

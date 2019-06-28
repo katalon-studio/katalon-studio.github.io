@@ -1,7 +1,9 @@
 ---
 title: "How to Perform Multi-touch Actions in Mobile App"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_multi_touch_action.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_multi_touch_action.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_multi_touch_action.html"
 description: "Multi-Touch action appears often in gaming applications. We will use MultiTouch Tester app to demonstrate automation testing on this common behavior."
 ---
 Multi-touch action appears often in gaming applications. We will use **MultiTouch Tester** app to demonstrate automation testing on this common behavior. Please download the app from [here](https://play.google.com/store/apps/details?id=com.the511plus.MultiTouchTester) or the direct apk file [here](https://www.appsapk.com/multitouch-tester/).

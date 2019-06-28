@@ -1,6 +1,6 @@
 ---
 title: "Version 6.0.6"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-606.html
 redirect_from:
     - "/katalon-studio/new/version-606/"

@@ -1,7 +1,9 @@
 ---
 title: "How to use a custom keyword from other custom keywords and step definition classes"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/how-to-use-custom-keyword-in-groovy-class.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/how-to-use-custom-keyword-in-groovy-class.html
+redirect_from:
+  - "katalon-studio/tutorials/how-to-use-custom-keyword-in-groovy-class.html"
 description: "Tips and Tricks: How to use a custom keyword from other custom keywords and step definition classes"
 ---
 Besides built-in keywords, Katalon Studio also allows users to create custom keywords for these purposes:

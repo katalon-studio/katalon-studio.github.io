@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Welcome to Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/overview.html
 redirect_from:

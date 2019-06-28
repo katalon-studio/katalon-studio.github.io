@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Control%20Statements/"
     - "/x/rAAM/"
     - "/katalon-studio/docs/control-statements/"
+    - "/katalon-studio/tutorials/common_condition_control_statements.html"
 description:
 ---
 Katalon Studio provides the ability to dictate the logical flow of execution by supporting **control statements** such as _If/Else_, _for/while_ or _Try/Catch_… which are very common concepts in programming language.

@@ -1,7 +1,9 @@
 ---
 title: "Handling Vertical Swipe in Mobile Automation"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/vertical_swipe_in_mobile_automation.html
+redirect_from:
+    - "katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html"
 description: "This tutorial illustrates Vertical Swiping from Top to Bottom action in mobile automation using Katalon Studio."
 ---
 Swipe Vertically from Top to Bottom

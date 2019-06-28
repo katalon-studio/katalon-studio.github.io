@@ -1,7 +1,9 @@
 ---
 title: "Handling Scroll to Element in Mobile Automation"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/scroll_element_mobile_automation.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/scroll_element_mobile_automation.html
+redirect_from:
+    - "katalon-studio/tutorials/scroll_element_mobile_automation.html"
 description: "This tutorial illustrates the Scroll Element which contains the given text in the mobile automation via a sample project in Katalon Studio."
 ---
 Scroll To Text

@@ -1,7 +1,9 @@
 ---
 title: "How to handle Drop-down menu"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/how_handle_drop_down_menu.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/how_handle_drop_down_menu.html
+redirect_from:
+    - "katalon-studio/tutorials/how_handle_drop_down_menu.html"
 description: "A drop-down menu contains a list of options. This tutorial illustrates how to handle the drop-down list using Katalon Studio built-in keywords."
 ---
 What is Drop-down?

@@ -1,14 +1,14 @@
 ---
-title: "Working with Execution Log" 
+title: "Customize Console Log"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/working-with-execution-log.html 
+permalink: katalon-studio/docs/working-with-execution-log.html
 redirect_from:
     - "/katalon-studio/docs/working-with-execution-log/"
-description: 
+description:
 ---
 > Since version 5.9
 
-Viewing execution log is the very first approach when troubleshooting automation test execution. The key information in the log can quickly help project teams pinpoint root causes of any issues. Katalon Studio execution logs are optimized to provide such information so that you can have a comprehensive view of the tests run. 
+Viewing execution log is the very first approach when troubleshooting automation test execution. The key information in the log can quickly help project teams pinpoint root causes of any issues. Katalon Studio execution logs are optimized to provide such information so that you can have a comprehensive view of the tests run.
 
 ## Execution Progress Debugger
 
@@ -17,7 +17,7 @@ Katalon Studio execution log displays full details of actions that are performed
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/new-log.png)
 
- 
+
 In Log Viewer, the Status Bar helps you quickly get the status of the recent tests run. When there are FAILED or ERROR tests from a current job, the status bar has the RED color to indicate such, and GREEN color for tests run with PASSED status. (For Windows only)
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/new-status-bar.png)
@@ -37,7 +37,7 @@ If you execute Web Service Suites, these .har files are stored in the requests\m
 ![](../../images/katalon-studio/docs/working-with-execution-log/har-location.png)
 
 
-Using the .har file in services analyzer such as https://toolbox.googleapps.com/apps/har_analyzer/  will provide quality insights about the Web Service request and response. This will help the project team quickly identify key issues and efficiently allocate resources to address the issue. Some issues that can be identified include: 
+Using the .har file in services analyzer such as https://toolbox.googleapps.com/apps/har_analyzer/  will provide quality insights about the Web Service request and response. This will help the project team quickly identify key issues and efficiently allocate resources to address the issue. Some issues that can be identified include:
 
 - Performance issues: slow page load, timeout when performing a certain task, ...
 
@@ -46,7 +46,7 @@ Using the .har file in services analyzer such as https://toolbox.googleapps.com/
 
 ## Logs Configuration
 
-The deepest level of logs called TRACE. Use TRACE level when you need more logs details than DEBUG level, which is used by default. 
+The deepest level of logs called TRACE. Use TRACE level when you need more logs details than DEBUG level, which is used by default.
 In case you want to change the log’s level of one or multiple packages, this setting is located and stored in Include > Config > log.properties file
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/log-properties.png)

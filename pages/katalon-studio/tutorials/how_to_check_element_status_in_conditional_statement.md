@@ -1,7 +1,9 @@
 ---
 title: "How to check element status in conditional statement?"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/how_to_check_element_status_in_conditional_statement.html
+redirect_from:
+    - "katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement.html"
 description: "Tips and Tricks: How to check element status in conditional statement?"
 ---
 

@@ -12,7 +12,95 @@ description:
 > *   Please read **[Installation and Setup](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
 > *   The information below is **NOT** exhaustive. For further troubleshooting requests, check out [Katalon Community](https://forum.katalon.com/discussions) or consider subscribing to our [Business Support](https://www.katalon.com/support-service-options/).
 
-<table><thead><tr><th>No</th><th>Issue</th><th>Solution</th></tr></thead><tbody><tr><td>1</td><td>Connected device is not displayed in 'Device Name' list</td><td><h2 id="Troubleshootingautomatedmobiletesting-iOS">iOS</h2><ul><li>Connect your&nbsp;device to Xcode.</li><li>Go to Settings -&gt;&nbsp;Developer&nbsp;&gt; turn ON&nbsp;UIAutomation.</li><li><p>Check if your device is recognized using the following commands on Terminal</p><pre><code class="language-groovy">cd /Applications/Katalon\ Studio.app/Contents/Eclipse/configuration/resources/tools/imobiledevice&nbsp;
-idevice_id -l</code></pre><p>If your iOS version is iOS 11, make sure Katalon Studio's version is 5.3+.</p></li></ul><h2 id="Troubleshootingautomatedmobiletesting-Android">Android</h2><ul><li>Developer option is turned on.</li><li>A trusted&nbsp;connection is established by&nbsp;tapping&nbsp;on 'Trust this computer' whenever this dialog is displayed on your device.</li><li>Check if the device is listed using&nbsp;adb&nbsp;command:<ul><li>On Windows command line/ MacOS terminal: Navigate to platform-tools folder in &lt;Android SDK folder&gt;\platform-tools.</li><li>Type in "adb&nbsp;devices" and observe devices listed there. Make sure that your corrected device is listed there with online status.&nbsp;</li></ul></li></ul></td></tr><tr><td>2</td><td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'</td><td><p>Your .ipa application and/or WebDriverAgent is not signed correctly.</p>Solutions:<ul><li>Sign and rebuild the WebDriverAgent XCode project with your developer certificate.</li><li>Uncheck 'Automatically Signing' option from WebDriverAgentRunner and select <strong>valid provisioning profile</strong> (profile displayed as Eligible from the list)</li></ul></td></tr><tr><td>3</td><td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target:</td><td><p>This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from&nbsp;<code>com.facebook.WebDriverAgentRunner</code>&nbsp;to something that Xcode will accept.</p></td></tr><tr><td>4</td><td>Fail to start Appium server in 30 seconds</td><td>Katalon Studio can't start Appium server within 30 seconds (default timeout). You can increase this timeout value from this settings: Project&nbsp;→ Settings&nbsp;→ Execution&nbsp;→ Default&nbsp;→ Default wait for elements timeout (in seconds)</td></tr><tr><td>5</td><td><ul><li>Fail to start the Appium server in 60 seconds</li><li>Original error: 'x.x.SplashActivity' never started</li></ul></td><td><p>Set your Appium Log Level to "Debug" which you can find this option in Windows &gt; Katalon Studio Preferences &gt; Katalon &gt; Mobile to generate debug logs of Appium.</p><p>After this change is applied, retry your record/spy session and then open generated&nbsp;.appium&nbsp;file in the project folder.&nbsp;<br>Somewhere in this file you are likely will see these lines:&nbsp;</p><pre><code class="language-groovy">[debug] [ADB] Running '..\adb.exe' with args: [...] 
+<table>
+    <thead>
+        <tr>
+            <th>Issue</th>
+            <th>Solution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Connected device is not displayed in 'Device Name' list</td>
+            <td>
+                <strong>iOS</strong>
+                <ul>
+                    <li>Connect your&nbsp;device to Xcode.</li>
+                    <li>Go to Settings -&gt;&nbsp;Developer&nbsp;&gt; turn ON&nbsp;UIAutomation.</li>
+                    <li>
+                        <p>Check if your device is recognized using the following commands on Terminal</p>
+                        <pre><code class="language-groovy">cd /Applications/Katalon\ Studio.app/Contents/Eclipse/configuration/resources/tools/imobiledevice&nbsp;
+idevice_id -l</code></pre>
+                        <p>If your iOS version is iOS 11, make sure Katalon Studio's version is 5.3+.</p>
+                    </li>
+                </ul>
+                <strong>Android</strong>
+                <ul>
+                    <li>Developer option is turned on.</li>
+                    <li>A trusted&nbsp;connection is established by&nbsp;tapping&nbsp;on 'Trust this computer' whenever this dialog is displayed on your device.</li>
+                    <li>
+                        Check if the device is listed using&nbsp;adb&nbsp;command:
+                        <ul>
+                            <li>On Windows command line/ MacOS terminal: Navigate to platform-tools folder in &lt;Android SDK folder&gt;\platform-tools.</li>
+                            <li>Type in "adb&nbsp;devices" and observe devices listed there. Make sure that your corrected device is listed there with online status.&nbsp;</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'</td>
+            <td>
+                <p>Your .ipa application and/or WebDriverAgent is not signed correctly.</p>
+                Solutions:
+                <ul>
+                    <li>Sign and rebuild the WebDriverAgent XCode project with your developer certificate.</li>
+                    <li>Uncheck 'Automatically Signing' option from WebDriverAgentRunner and select <strong>valid provisioning profile</strong> (profile displayed as Eligible from the list)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target:</td>
+            <td>
+                <p>This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from&nbsp;<code>com.facebook.WebDriverAgentRunner</code>&nbsp;to something that Xcode will accept.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Fail to start Appium server in 30 seconds</td>
+            <td>Katalon Studio can't start Appium server within 30 seconds (default timeout). You can increase this timeout value from this settings: Project&nbsp;→ Settings&nbsp;→ Execution&nbsp;→ Default&nbsp;→ Default wait for elements timeout (in seconds)</td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Fail to start the Appium server in 60 seconds</li>
+                    <li>Original error: 'x.x.SplashActivity' never started</li>
+                </ul>
+            </td>
+            <td>
+                <p>Set your Appium Log Level to "Debug" which you can find this option in Windows &gt; Katalon Studio Preferences &gt; Katalon &gt; Mobile to generate debug logs of Appium.</p>
+                <p>After this change is applied, retry your record/spy session and then open generated&nbsp;.appium&nbsp;file in the project folder.&nbsp;<br>Somewhere in this file you are likely will see these lines:&nbsp;</p>
+                <pre><code class="language-groovy">[debug] [ADB] Running '..\adb.exe' with args: [...] 
 [debug] [ADB] Found package: 'com.abc.def.xyz' and fully qualified activity name : 'com.egh.jik' 
-[debug] [ADB] Incorrect package and activity. Retrying.</code></pre><p>&nbsp;</p><p>The root cause is Katalon Studio can't start application due to incorrect package and activity by default, so you need to add additional settings to desired capabilities:&nbsp;</p><p>&nbsp;-&nbsp;Navigate to Mobile settings (Project &gt; Settings &gt; Execution &gt; Default &gt; Mobile &gt; Android)&nbsp;<br>&nbsp;-&nbsp;Add the following key<br>&nbsp; &nbsp;Name: appWaitActivity&nbsp;<br>&nbsp; &nbsp;Value: com.* (<strong>based on the prefix of 'Found package' log</strong>)</p><p><br></p></td></tr><tr><td>6</td><td>Carthage&nbsp;is not found</td><td>Known issue of Appium 1.7 with Xcode 9:&nbsp;<a class="external-link" href="https://github.com/appium/appium/issues/9344" rel="nofollow">https://github.com/appium/appium/issues/9344</a>, so please use Katalon Studio 5.1.0.2+ to avoid this message.</td></tr><tr><td>7</td><td>Unable to Start Application on this device: Appium directory is invalid.</td><td><p>Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:</p><p>Windows: (Window&nbsp;→ Katalon Studio Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p><pre><code class="language-groovy">C:\Users\&lt;Username&gt;\AppData\Roaming\npm\node_modules\appium</code></pre><p>MacOS/Linux: (Katalon Studio&nbsp;→ Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p><pre><code class="language-groovy">/usr/local/lib/node_modules/appium</code></pre></td></tr></tbody></table>
+[debug] [ADB] Incorrect package and activity. Retrying.</code></pre>
+                <p>&nbsp;</p>
+                <p>The root cause is Katalon Studio can't start application due to incorrect package and activity by default, so you need to add additional settings to desired capabilities:&nbsp;</p>
+                <p>&nbsp;-&nbsp;Navigate to Mobile settings (Project &gt; Settings &gt; Execution &gt; Default &gt; Mobile &gt; Android)&nbsp;<br>&nbsp;-&nbsp;Add the following key<br>&nbsp; &nbsp;Name: appWaitActivity&nbsp;<br>&nbsp; &nbsp;Value: com.* (<strong>based on the prefix of 'Found package' log</strong>)</p>
+                <p><br></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Carthage&nbsp;is not found</td>
+            <td>Known issue of Appium 1.7 with Xcode 9:&nbsp;<a class="external-link" href="https://github.com/appium/appium/issues/9344" rel="nofollow">https://github.com/appium/appium/issues/9344</a>, so please use Katalon Studio 5.1.0.2+ to avoid this message.</td>
+        </tr>
+        <tr>
+            <td>Unable to Start Application on this device: Appium directory is invalid.</td>
+            <td>
+                <p>Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:</p>
+                <p>Windows: (Window&nbsp;→ Katalon Studio Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
+                <pre><code class="language-groovy">C:\Users\&lt;Username&gt;\AppData\Roaming\npm\node_modules\appium</code></pre>
+                <p>MacOS/Linux: (Katalon Studio&nbsp;→ Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
+                <pre><code class="language-groovy">/usr/local/lib/node_modules/appium</code></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -9,14 +9,7 @@ This tutorial shows you the step by step guide on how to install and run Katalon
 
 ## Installation
 
-To install Katalon for Azure DevOps extension, follow these steps below:
-
-
-
-1. Go to [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com/azuredevops)
-2. In Azure DevOps tab, search for the extension
-3. Install the extension
-
+Go to [this link](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) to install the extension.
 
 ## Configuration steps
 
@@ -45,4 +38,4 @@ See [Common Configuration]([https://docs.katalon.com/katalon-studio/docs/common-
 ![](../../images/katalon-studio/docs/azure-devops-extension/4-result.png)
 
 
-Refer to this [sample project]([https://github.com/katalon-studio-samples/azure-devops-extension-samples](https://github.com/katalon-studio-samples/azure-devops-extension-samples)) for your reference.
+Refer to this [sample project](https://github.com/katalon-studio-samples/azure-devops-extension-samples).
