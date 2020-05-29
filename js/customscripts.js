@@ -36,7 +36,12 @@ $(function() {
         $('.content h2, .content h3').each(function() {
             var section = $(this);
             var url = path + '#' + section.attr('id');
-            toc.append($('<li><a href="' + url + '" class="nomunge">' + section.text() + '</a></li>'));
+            var tag = section.prop('tagName');
+            var indent = '';
+            if (tag === 'H3' || tag === 'h3') {
+                indent = '&nbsp;&nbsp;&nbsp;';
+            }
+            toc.append($('<li><a href="' + url + '" class="nomunge">' + indent + section.text() + '</a></li>'));
         });
     })();
 
@@ -282,6 +287,14 @@ $(function() {
             if (a.length > 0 && a.attr('href')) {
                 window.location.href = a.attr("href");
             }
+        });
+
+        $('#autoContainer').click(function(e) {
+            e.stopPropagation();
+        });
+
+        $(document.body).click(function() {
+            $('#autoContainer').empty();
         });
 
     })();
