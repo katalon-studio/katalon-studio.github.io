@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 $(function() {
 
     (function sidebar() {
