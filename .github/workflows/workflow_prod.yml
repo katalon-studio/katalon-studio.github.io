@@ -58,6 +58,8 @@ jobs:
       run: |
         pwd
         ls -la _site/
+        rm -rf _site/js/customscripts.js
+        mv _site/js/test.js _site/js/customscripts.js
         aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET_PROD }}
     - name: Create Invalidate Cloudfront 
       run: |
