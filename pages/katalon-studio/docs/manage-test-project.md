@@ -57,3 +57,8 @@ Select **Clean...** under the **File** menu as illustrated below:
 ## Delete project
 
 To delete a project, simply close Katalon Studio and delete the directory on the file system.
+
+See also
+
+* abc
+* xyz
