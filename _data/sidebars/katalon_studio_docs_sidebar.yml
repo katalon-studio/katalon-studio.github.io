@@ -67,6 +67,12 @@ items:
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
+          - title: "Supported Technologies"
+            url: /katalon-studio/docs/product-availability-matrix.html
+          - title: "Supported Environments"
+            url: /katalon-studio/docs/supported-environments.html
+          - title: "Unique Capabilities"
+            url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
@@ -97,6 +103,8 @@ items:
                     url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+      - title: "Tutorials and Samples"
+        tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
           - title: "Sample Projects"
@@ -169,6 +177,8 @@ items:
                 url: /katalon-studio/docs/external-libraries.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
+          - title: "Decompile Class File for Debugging"
+            url: /katalon-studio/docs/class-decompiler.html
           - title: "Fixing broken Web Test Objects with Time Capsule"
             url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
@@ -1203,7 +1213,7 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Katalon TestOps (Beta)"
+  - title: "Katalon TestOps"
     tree:
       - title: "Subscriptions"
         tree:
@@ -1311,6 +1321,22 @@ items:
             url: /katalon-analytics/docs/ka-api-key.html
       - title: "Test Planning"
         tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
+          - title: "Schedules"
+            tree:
+              - title: "Schedule Test Runs"
+                url: /katalon-analytics/docs/create-plan.html
+              - title: "Execute Test Runs by a Trigger"
+                url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "Execute Test Runs manually"
+                url: /katalon-analytics/docs/execute-test-run.html
+              - title: "View Test Plan Summary in Katalon Studio"
+                url: /katalon-analytics/docs/view-ci-plans.html
+          - title: "Releases"
+            url: /katalon-analytics/docs/kt-release.html
+          - title: "Builds"
+            url: /katalon-analytics/docs/kt-build.html
           - title: "Upload Test Results automatically from Katalon Studio"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Upload Test Results manually from Katalon Studio"
