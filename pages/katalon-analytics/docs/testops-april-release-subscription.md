@@ -1,6 +1,6 @@
 ---
 title: "TestOps Subscription via Website"
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-subscription-via-website.html 
 description: 
 ---
@@ -14,7 +14,7 @@ Start the following steps to log in:
 
 2. Choose a plan and click **Buy Now**.
 
-3. Fill out credentials on the **Sign In** page.
+3. Fill out credentials and sign in.
 
 *<details><summary> For users who have only one organization:</summary>*
 
@@ -54,7 +54,7 @@ Start the following steps to log in:
 
 2. Choose a plan and click **Buy Now**.
 
-3. Fill out the required information on the **Sign Up** page
+3. Fill out the required information and sign up.
 
 After signing up successfully, an organization is auto-created with the user's email as the organization name. Continue the following steps:
 
