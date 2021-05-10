@@ -973,8 +973,10 @@ items:
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Selenium Grid - Execution on Remote Machines" 
             url: /katalon-studio/docs/selenium-grid-integration.html
-          - title: "Executing Tests on Multiple Devices in Parallel"
+          - title: "Execute Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
+          - title: "Set a new default JRE for test projects"
+            url: /katalon-studio/how-to-guides/set-new-default-JRE.html
           - title: "Link Execution with TestOps Release using CLI"
             url: /katalon-studio/docs/execution-release-cli.html
       - title: "Reports and Execution Log"
