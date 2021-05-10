@@ -1486,5 +1486,4 @@ items:
       - title: "Sessions Monitoring"
         url: /katalium-server/docs/view-session-details.html
       - title: "Contributing Guidelines"
-        url: /katalium-server/docs/katalium-contributing.html  
-        
+        url: /katalium-server/docs/katalium-contributing.html
