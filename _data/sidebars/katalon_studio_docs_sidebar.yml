@@ -56,7 +56,7 @@ items:
           - title: "What's new"
             tree:
               - title: "What's new in v8.0.0?"
-                url: /katalon-studio/new/what-is-new-80.html
+                url: /katalon-studio/new/what-is-new-800.html
               - title: "What's new in v7.9.0?"
                 url: /katalon-studio/new/what-is-new-79.html
               - title: "What's new in v7.8.0?"
@@ -85,8 +85,6 @@ items:
                 url: /katalon-studio/docs/troubleshoot-activation-problems.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
-              - title: "Supported Environments"
-                url: /katalon-studio/docs/supported-environments.html
               - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
@@ -1006,7 +1004,7 @@ items:
           - title: "Database Settings"
             url: /katalon-studio/docs/database-settings.html
           - title: "How to implement Data-driven Testing with MySQL?"
-            url: /katalon-studio/tutorials/how-to-implement-ddt-mysql.html
+            url: /katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html
           - title: "Combine Multiple Data Sources"
             url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework (Cucumber integration)"
@@ -1087,12 +1085,12 @@ items:
             url: /katalon-store/docs/publisher/example-plugin-testrail.html   
       - title: "Troubleshooting"
         tree:
+          - title: "Troubleshoot common exceptions" 
+            url: /katalon-studio/docs/troubleshooting.html 
           - title: "Troubleshoot web automated testing"
-            url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
-          - title: "Troubleshoot automated mobile testing"
-            url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
-          - title: "Troubleshoot common exceptions when executing web tests"
             url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html
+          - title: "Troubleshoot mobile automated testing"
+            url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
           - title: "Known issues"
             url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Tips and Tricks"
@@ -1339,40 +1337,22 @@ items:
             url: /katalon-analytics/docs/kt-release.html
           - title: "Builds"
             url: /katalon-analytics/docs/kt-build.html
-          - title: "Upload Test Results automatically from Katalon Studio"
-            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-          - title: "Upload Test Results manually from Katalon Studio"
-            url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
-            url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
-            url: /katalon-analytics/docs/testops-uploader.html
-          - title: "Upload JUnit and TestNG Test Results via Maven" 
-            url: /katalon-analytics/docs/upload-junit-and-testng.html
       - title: "Test Management"
         tree:
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html
           - title: "Jira Integration"
             tree:
-             - title: "Jira Settings"
-               url: /katalon-analytics/docs/kt-jira-config.html
-             - title: "Jira Dashboard Gadgets"
-               url: /katalon-analytics/docs/jira-gadgets.html
              - title: "Writing BDD in Jira"
                url: /katalon-analytics/docs/bdd-settings.html
              - title: "View BDD Test Results"
                url: /katalon-analytics/docs/bdd-test-results.html
              - title: "Link Executions to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
-             - title: "Link Test Cases to Requirements"
-               url: /katalon-analytics/docs/ka-integration-jira.html
-             - title: "Manage Executions with Jira Releases"
-               url: /katalon-analytics/docs/kt-jira-release.html
-          - title: "Slack Integration"
-            url: /katalon-analytics/docs/slack-integration.html
-      - title: "Test Planning"
-        tree: 
+             - title: "Link Test Cases to Jira Requirements"
+               url: /katalon-analytics/docs/ka-integration-jira.html     
+      - title: "Reports & Analytics"
+        tree:
           - title: "Overview"
             url: /katalon-analytics/docs/view-reports-overview.html
           - title: "Change the Test Result from failing to passing"
