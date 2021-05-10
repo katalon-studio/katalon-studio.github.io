@@ -1,70 +1,73 @@
 ---
 title: "TestOps Subscription via Website"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-subscription-via-Website.html 
+permalink: katalon-analytics/docs/testops-subscription-via-website.html 
 description: 
 ---
-## TestOps Subscription via Website
 
-Choose the relevant instructions if you are:
-1. A user who has registered a Katalon account but not signed in:
-* For signed-in user who has only one organization
-* For signed-in user who has multiple organizations
-2. A user who has not yet registered a Katalon account  
+Choose your user type for relevant instructions.
 
-### For users with Katalon account but not signed in
+**<details><summary>A user who has registered a Katalon account:</summary>**
+
 Start the following steps to log in:
-1. Go to TestOps Pricing Website 
-2. Choose **Plan** and click **Get Started**
-3. Navigate to **Login** screen 
+1. Go to [Katalon Pricing](https://www.katalon.com/pricing/).
 
-After logging in successfully, check if you fall in the following categories:
+2. Choose a plan and click **Buy Now**.
 
-*For signed-in user with only one organization*:
-* Navigate users to the **Katalon TestOps Plan** screen that displays your specified orders earlier, click **Subscribe**
+3. Fill out credentials on the **Sign In** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscription-1.png" width=70%>
+*<details><summary> For users who have only one organization:</summary>*
 
-* Click **Check Out** to review the order.
-* Fill in **Billing information**. You must fill all required fields.
+1. Navigate to **TestOps Subscriptions** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscription-2.png" width=70%>
+2. Select the desired plan and number of test results.
 
-*For signed-in user with multiple organizations*:
-* Navigate to choose the organization
-* Click **Check Out** to review the order.
-* Fill in **Billing information**. You must fill all required fields.
+3. Click **Checkout** to review the order.
 
-### For users without Katalon account 
-Start the following steps to register:
-* Go to TestOps Pricing website
-* Choose **Plan** and click **Get Started**
-* Navigate to **Sign Up** screen
+    ![choose-plan](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-subscription-via-web/via-web-1.png)
 
-After signing up, an organization is automatically created with your email as the organization name. Continue the following steps: 
-* Navigate to **Katalon TestOps Plan** screen that displays your specified orders earlier
+4. Fill out the payment and billing information, then click **Checkout**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscription-1.png" width=70%>
+</details>
 
-* Click **Check Out** to review the order
-* Fill in **Billing information**. You must fill all required fields.
+*<details><summary> For users who have multiple organizations:</summary>*
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscription-2.png" width=70%>
+1. Select the desired organization from the list.
 
-### Successful payment process 
-If payment is successful, the screen displays as follow: 
+    ![select-org](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-subscription-via-web/via-web-3.png)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscription-3.png" width=70%>
+2. Navigate to **TestOps Subscriptions** page.
 
-Continue the following steps:
-* Send a request to Recurly to create a new subscription immediately
-* Send a request to Stripe to create a new invoice.
+3. Select the desired plan and number of test results.
 
+4. Click **Checkout** to review the order.
 
-If payment fails, it could be the following reasons:
-* Invalid card. "Invalid card number” error displays and restricts checking out
-* Other reasons. Errors from Stripe display and restrict checking out
+5. Fill out payment and billing information. Click **Checkout**.
 
-If the card validation process has passed but the system fails in charging the card, start [dunning process](https://docs.recurly.com/docs/dunning-management).
-* If successful, continue the subscription
-* If failed, terminate the subscription
+</details>
+
+</details>
+
+**<details><summary>A user who has not registered a Katalon account:</summary>**
+
+1. Go to [Katalon Pricing](https://www.katalon.com/pricing/).
+
+2. Choose a plan and click **Buy Now**.
+
+3. Fill out the required information on the **Sign Up** page
+
+After signing up successfully, an organization is auto-created with the user's email as the organization name. Continue the following steps:
+
+1. Navigate back to the **Pricing** page
+
+2. Navigate to **TestOps Subscriptions** page.
+
+3. Select the desired plan and number of test results.
+
+4. Click **Checkout** to review the order.
+
+    ![choose-plan](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-subscription-via-web/via-web-1.png)
+
+5. Fill out the payment and billing information, then click **Checkout**
+
+</details>
