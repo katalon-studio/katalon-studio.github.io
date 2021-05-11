@@ -7,7 +7,7 @@ redirect_from:
 description:
 ---
 
-Prior to v8.0.0, MySQL is one of the libraries having a built-in JDBC driver in Katalon Studio. Due to the open-source library compliance issue, from v8.0.0 onwards, its executable jar file is removed from our bundled libraries, giving you flexibility in choosing which MySQL version to connect. 
+Prior to v8.0.0, MySQL is one of the libraries having a built-in JDBC driver in Katalon Studio. From v8.0.0 onwards, its executable jar file is removed from our bundled libraries, giving you flexibility in choosing which MySQL version to connect. 
 
 To keep the MySQL database in use, you need to add its driver to the external library for establishing the database connection. See which libraries Katalon Studio supports built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 
