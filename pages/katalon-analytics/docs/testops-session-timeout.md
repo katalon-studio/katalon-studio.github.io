@@ -4,8 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/timeout-config.html
 description:
 ---
-
-> Only Organization Owners and Admins can access these settings.
+_Hello_
 
 The Owner or Admin of an organization can configure a time duration after which inactive users in the organization will be logged out and redirected to the sign-in page.
 
