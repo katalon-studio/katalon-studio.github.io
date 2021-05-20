@@ -108,7 +108,7 @@ Follow the steps below to record the screen:
 
 In version **7.8**, the Studio team ships browser-based video recording for both full Browsers and Headless Browsers, which is incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the screen, while with the Browser-based Video Recorder, you can:
 
-* choose **Record video of browser window only** (even it's hidden behind another window).
+* choose **Record video of browser window only** (even if it's hidden behind another window).
 * choose **Record video of Headless browser**.
 
    Headless Browser is a way to run browsers in a headless environment, popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
