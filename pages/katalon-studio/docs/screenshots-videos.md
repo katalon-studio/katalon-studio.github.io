@@ -76,7 +76,7 @@ Screen Recorder is currently available for:
 
 Follow guidelines below to record the screen:
 
-**<details><summary>For configurations in version 7.8 onwards</summary>**
+**<details><summary>For configuration in version 7.8 and onwards</summary>**
 
 1. Go to **Project** > **Settings** > **Execution** to open the **Execution** view.
 2. In the **During-Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
@@ -94,7 +94,7 @@ Follow guidelines below to record the screen:
 
 </details>
 
-**<details><summary>For configurations in versions before 7.8</summary>**
+**<details><summary>For configuration in versions before 7.8</summary>**
 
 1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
