@@ -221,7 +221,7 @@ Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build 
 
 ## View recorded videos
 
-After running the test suite, navigate to the **Result** tab. You can view the list of test cases in the test case table with videos attached accordingly. Click on the *Play* icon in the **Video** column to play the video. Each test step in a video have a description embedded like a subtitle. For example:
+After running the test suite, navigate to the **Result** tab. You can view the list of test cases in the test case table with videos attached accordingly. Click on the *Play* icon in the **Video** column to play the video. Each test step in a video has a description embedded like a subtitle. For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
