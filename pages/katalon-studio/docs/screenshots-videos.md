@@ -14,17 +14,13 @@ In this manual, you will learn how to capture screenshots and record videos of t
 
 By default, the test engine captures screenshots automatically upon test failures. This feature is currently applicable to Web UI and Mobile testing. To turn off this function, do as follows:
 
-<details><summary>For version 7.8 onwards:</summary>
+* For version **7.8 onwards**:
 
 Go to **Project** > **Settings** > **Execution**. In the displayed **During-Execution Options** panel, uncheck **Take Screenshot when execution failed** and click **Apply and Close**.
 
-</details>
-
-<details><summary>For versions before 7.8:</summary>
+* For versions **before 7.8**:
 
 Go to **Project** > **Settings** > **Report**. In the displayed **Report** view, uncheck **Take Screenshot when execution failed** and click **OK**.
-
-</details>
 
 ### Manual configuration
 
@@ -42,14 +38,14 @@ If you wish to manually take screenshots of the application under test during ru
 
 ### View captured screenshots
 
-Katalon Studio stores screenshots in the **Report** folder within a project. You can view the captured screenshots in Image Log after execution.
+Katalon Studio stores screenshots in the Report folder within a project. When a test fails, you can view the captured screenshots in the image tab of the Test Case's Log by following these steps:
 
-When a test suite fails, follow these steps :
-
-1. Open its result tab.
+1. Open the test's **Result** tab.
 2. Select the failed test case.
 3. Click **Show Test Case Details** on the top right corner.
-3. Select the **Image** tab and view the captured screenshot in the Test Case's Log.
+
+    The Test Case's Log then appears.
+4. Click on **Image**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" height=330>
 
@@ -57,11 +53,11 @@ You can also use the captured screenshots for visual testing with TestOps Vision
 
 ## Videos
 
-Together with execution logs and screenshots, videos are of great assistance to decide what went wrong during the runtime of automated tests. By watching the recorded videos to see how the automated test was executed, the testing team can identify exactly where the test failed and hence, save substantial time and resources.
+Together with execution logs and screenshots, videos are of great assistance to decide what went wrong during the runtime of automated tests. By watching the recorded videos to see how the automated test was executed, the testers can identify exactly where the test failed and hence, save substantial time and resources.
 
 > Notes
 > * Video recorder applies to Web UI testing only.
-> * For remote browsers, you're recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
+> * For remote browsers, we recommend you use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
 
 ### Screen Recorder
 
@@ -75,6 +71,12 @@ Screen Recorder is currently available for:
 > [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play the recorded screen-based video.
 
 Follow guidelines below to record the screen:
+
+> **If you use macOS, make sure you first enable Katalon Studio for Screen Recording.**
+>
+> Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
+
+
 
 **<details><summary>For configuration in version 7.8 and onwards</summary>**
 
@@ -117,10 +119,6 @@ Follow guidelines below to record the screen:
 
 </details>
 
-> **If you use macOS, make sure you enable Katalon Studio for Screen Recording.**
->
-> Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
-
 ### Browser-based Recorder
 
 From version **7.8 onwards**, you can use browser-based video recording for both full Browsers and Headless Browsers, which is incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the computer screen, while with the Browser-based Video Recorder, you can:
@@ -132,18 +130,18 @@ From version **7.8 onwards**, you can use browser-based video recording for both
 
 * choose **Record videos of multiple browsers simultaneously** (for instance, parallel execution of Test Suite Collection).
 
-**Preconditions:**
+**Requirements:**
 
-* An active Katalon Studio Enterprise license
-* Katalon Studio version 7.8
+* An active Katalon Studio Enterprise license.
+* Katalon Studio version 7.8 onwards.
 
-> Note
+> Notes:
 > * Available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
-> * Support Test Suite and Test Suite Collection execution
+> * Support Test Suite and Test Suite Collection execution.
 
-The below section guides you on configuring the browser-based video recorder in project settings and viewing videos.
+The below section guides you on configuring your Browser-based Video Recorder in project settings and viewing videos.
 
-#### Configurations for Browser-based Video Recorder
+#### Configuring Browser-based Video Recorder
 
 To use Browser-based Video Recorder feature, you need to enable it in Katalon Studio and install a third-party library (FFmpeg) for video encoding.
 
@@ -152,10 +150,12 @@ To use Browser-based Video Recorder feature, you need to enable it in Katalon St
 1. Go to **Project** > **Settings** > **Execution** to open the Execution view.
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
 
-   By default, **Browser-based Recorder** for **failed Test Cases only** is selected.
+   > The Browser-based Video  Recorder function only records failed test cases by default.
+
 3. Set a window size of 1500x1000 for the browser you record in Project Settings.
 
 * Go to **Project** > **Settings** > **Desired Capabilities** > **Web UI**. Select **Chrome** or **Chrome Headless** or **Edge Chromium**.
+
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/browser-size.png">
 
    > Learn more about how to set [Desired Capabilities for Web UI](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#chromechrome-headless)
@@ -168,7 +168,16 @@ To use Browser-based Video Recorder feature, you need to enable it in Katalon St
 
 To install the FFmpeg library,
 
-**For macOS**:
+**<details><summary>For Windows</summary>**
+
+1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
+2. Download the package which is appropriate for your operating system.
+3. Add the path to the FFmpeg executable file to your PATH environment variable.
+4. Reactivate Katalon Studio for this installation to take effect.
+
+</details>
+
+**<details><summary>For macOS</summary>**
 
 * Install FFmpeg via Homebrew with `$ brew install ffmpeg`,
 
@@ -177,9 +186,11 @@ To install the FFmpeg library,
 
 1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
 2. Download the package which is appropriate for your operating system.
-3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/paths` file 
+3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/paths` file.
 
-**For Linux**:
+</details>
+
+**<details><summary>For Linux</summary>**
 
 * Use the following command: `sudo apt-get install ffmpeg`,
 
@@ -189,14 +200,9 @@ To install the FFmpeg library,
 
 1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
 2. Download the package which is appropriate for your operating system.
-3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/environment` file 
+3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/environment` file.
 
-**For Windows**: 
-
-1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
-2. Download the package which is appropriate for your operating system.
-3. Add the path to the FFmpeg executable file to your PATH environment variable.
-4. Reactivate Katalon Studio for this installation to take effect.
+</details>
 
 </details>
 
@@ -233,4 +239,4 @@ After running the test suite, navigate to the **Result** tab. You can view the l
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
-Katalon stores recorded videos in the **Report** folder within a project.
+Katalon stores recorded videos in the Report folder within a project.
