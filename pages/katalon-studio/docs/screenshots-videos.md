@@ -106,14 +106,14 @@ Follow the steps below to record the screen:
 
 ## Browser-based Video Recorder
 
-In version **7.8**, the Studio team ships browser-based video recording for both full Browsers and Headless Browsers, which is incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the screen while with the Browser-based Video Recorder, you can:
+In version **7.8**, the Studio team ships browser-based video recording for both full Browsers and Headless Browsers, which is incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the screen, while with the Browser-based Video Recorder, you can:
 
 * choose **Record video of browser window only** (even it's hidden behind another window).
 * choose **Record video of Headless browser**.
 
    Headless Browser is a way to run browsers in a headless environment, popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
 
-* choose **Record videos of multiple browsers simultaneously** (for instance, parallel execution of Test Suite Collection.)
+* choose **Record videos of multiple browsers simultaneously** (for instance, parallel execution of Test Suite Collection).
 
 **Preconditions:**
 
@@ -128,11 +128,11 @@ The below section guides you on configuring the browser-based video recorder in 
 
 ### Configurations for Browser-based Video Recorder
 
-To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library used for encoding videos.
+To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library (FFmpeg) used for encoding videos.
 
-**In Katalon Studio**
+#### Project Settings in Katalon Studio
 
-1. Go to **Project** > **Settings** > **Execution** to open the **Execution** view.
+1. Go to **Project** > **Settings** > **Execution** to open the Execution view.
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
 
    By default, **Browser-based Recorder** for **failed Test Cases only** is selected.
@@ -145,7 +145,7 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 
 4. Click **Apply and Close**.
 
-### Install FFmpeg library
+#### Install FFmpeg library
 
 To install the FFmpeg library,
 
@@ -179,7 +179,7 @@ To install the FFmpeg library,
 3. Add the path to the FFmpeg executable file to your PATH environment variable.
 4. Reactivate Katalon Studio for this installation to take effect.
 
-#### Docker Image
+### Katalon Docker Image
 
 Katalon Docker Image could be used as a container to execute Katalon Studio tests and write reports to the host's file system.
 
@@ -208,7 +208,7 @@ Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build 
 
 ## View recorded videos
 
-After running the test suite, navigate to the **Result** tab. You can view the list of test cases in the test case table with videos attached accordingly. Click on the *Play* icon in the **Video** column to play the video. Eacth test steop in the videos have a description embedded as subtitles. For example:
+After running the test suite, navigate to the **Result** tab. You can view the list of test cases in the test case table with videos attached accordingly. Click on the *Play* icon in the **Video** column to play the video. Each test step in a video have a description embedded like a subtitle. For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
