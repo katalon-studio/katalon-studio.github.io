@@ -12,12 +12,17 @@ In this manual, you will learn how to capture screenshots and record videos of t
 
 By default, the test engine captures screenshots automatically upon test failures. This feature is currently applicable to Web UI and Mobile testing. To turn off this function, do as follows:
 
-* In version **7.8 onwards**:
+<details><summary>For version 7.8 onwards:</summary>
 
 Go to **Project** > **Settings** > **Execution**. In the displayed **During-Execution Options** panel, uncheck **Take Screenshot when execution failed** and click **Apply and Close**.
-* In version **before 7.8**: 
+
+</details>
+
+<details><summary>For version before 7.8:</summary>
 
 Go to **Project** > **Settings** > **Report**. In the displayed **Report** view, uncheck **Take Screenshot when execution failed** and click **OK**.
+
+</details>
 
 If you wish to manually take screenshots of the application under test during runtime, you can use the following built-in keywords for Web UI and Mobile respectively:
 
@@ -61,9 +66,9 @@ Screen Video Recorder is currently available for:
 
 > [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play the recorded screen-based video.
 
-Follow the steps below to record the screen:
+Follow guidelines below to record the screen:
 
-### For configurations in version 7.8 onwards
+**<details><summary>For configurations in version 7.8 onwards</summary>**
 
 1. Go to **Project** > **Settings** > **Execution** to open the **Execution** view.
 2. In the **During-Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
@@ -79,7 +84,9 @@ Follow the steps below to record the screen:
 
 4. Click **Apply and Close**.
 
-### For configurations in versions before 7.8
+</details>
+
+**<details><summary>For configurations in versions before 7.8</summary>**
 
 1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
@@ -99,6 +106,8 @@ Follow the steps below to record the screen:
 * **Video quality**: Low; Medium or High
 
 4. Click **OK**
+
+</details>
 
 > **If you use macOS, make sure you enable Katalon Studio for Screen Recording.**
 >
@@ -130,7 +139,7 @@ The below section guides you on configuring the browser-based video recorder in 
 
 To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library (FFmpeg) used for encoding videos.
 
-#### Enable Browser-based Video Recorder in Katalon Studio
+**<details><summary>Enable Browser-based Video Recorder in Katalon Studio</summary>**
 
 1. Go to **Project** > **Settings** > **Execution** to open the Execution view.
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
@@ -145,7 +154,9 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 
 4. Click **Apply and Close**.
 
-#### Install FFmpeg library
+</details>
+
+**<details><summary>Install FFmpeg library</summary>**
 
 To install the FFmpeg library,
 
@@ -179,7 +190,9 @@ To install the FFmpeg library,
 3. Add the path to the FFmpeg executable file to your PATH environment variable.
 4. Reactivate Katalon Studio for this installation to take effect.
 
-### Katalon Docker Image
+</details>
+
+#### Katalon Docker Image
 
 Katalon Docker Image could be used as a container to execute Katalon Studio tests and write reports to the host's file system.
 
