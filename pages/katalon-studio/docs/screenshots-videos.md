@@ -40,7 +40,7 @@ If you wish to manually take screenshots of the application under test during ru
 * [[WebUI] Take Full Page Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot.html) (Available from 7.7)
 * [[Mobile] Take Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot.html)
 
-### Find screenshots
+### View captured screenshots
 
 Katalon Studio stores screenshots in the **Report** folder within a project. You can view the captured screenshots in Image Log after execution.
 
@@ -145,7 +145,7 @@ The below section guides you on configuring the browser-based video recorder in 
 
 #### Configurations for Browser-based Video Recorder
 
-To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library (FFmpeg) used for encoding videos.
+To use this feature, you need to enable it Katalon Studio and install a third-party library (FFmpeg) for video encoding.
 
 **<details><summary>Enable Browser-based Video Recorder in Katalon Studio</summary>**
 
