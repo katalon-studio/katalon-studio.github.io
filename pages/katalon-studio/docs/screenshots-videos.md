@@ -130,7 +130,7 @@ The below section guides you on configuring the browser-based video recorder in 
 
 To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library (FFmpeg) used for encoding videos.
 
-#### Project Settings in Katalon Studio
+#### Enable Browser-based Video Recorder in Katalon Studio
 
 1. Go to **Project** > **Settings** > **Execution** to open the Execution view.
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
