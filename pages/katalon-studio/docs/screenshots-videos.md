@@ -38,14 +38,16 @@ If you wish to manually take screenshots of the application under test during ru
 
 Katalon Studio stores screenshots in the **Report** folder within a project. You can view the captured screenshots in **Log Image** after execution.
 
-1. When a test suite fails, open its result tab.
+When a test suite fails, follow these steps :
+
+1. Open its result tab.
 2. Select the failed test case.
-3. On the top right corner, click on **Show Test Case Details**
-3. In the Test Case's Log, select the **Image** tab and view the captured screenshot.
+3. Click **Show Test Case Details** on the top right corner.
+3. Select the **Image** tab and view the captured screenshot in the Test Case's Log.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" height=330>
 
-You can use the taken screenshots for visual testing with TestOps Vision. [Learn more](https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557).
+You can use the captured screenshots for visual testing with TestOps Vision. [Learn more](https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557).
 
 ## Videos
 
