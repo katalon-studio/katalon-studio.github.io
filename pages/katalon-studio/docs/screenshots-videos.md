@@ -145,7 +145,7 @@ The below section guides you on configuring the browser-based video recorder in 
 
 #### Configurations for Browser-based Video Recorder
 
-To use this feature, you need to enable it Katalon Studio and install a third-party library (FFmpeg) for video encoding.
+To use this feature, you need to enable it in Katalon Studio and install a third-party library (FFmpeg) for video encoding.
 
 **<details><summary>Enable Browser-based Video Recorder in Katalon Studio</summary>**
 
