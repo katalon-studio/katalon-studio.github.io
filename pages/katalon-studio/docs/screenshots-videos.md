@@ -59,6 +59,10 @@ Together with execution logs and screenshots, videos are of great assistance to 
 > * Video recorder applies to Web UI testing only.
 > * For remote browsers, we recommend you use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
 
+Katalon Studio version **7.8 onwards** supports screen recording and browser-based recording. Screen recording allows you to see test runs in a local machine while browser-based recording enables you to see test runs in a distant machine.
+
+> Browser-based Video Recorder feature enables video recording of test execution when using KRE and Docker.
+
 ### Screen Recorder
 
 Screen Recorder captures and records what is happening on the computer screen during runtime for non-headless Browsers testing.
@@ -136,8 +140,8 @@ From version **7.8 onwards**, you can use browser-based video recording for both
 * Katalon Studio version 7.8 onwards.
 
 > Notes:
-> * Available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
-> * Support Test Suite and Test Suite Collection execution.
+> * This feature is available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
+> * This feature supports Test Suite and Test Suite Collection execution.
 
 The below section guides you on configuring your Browser-based Video Recorder in project settings and viewing videos.
 
