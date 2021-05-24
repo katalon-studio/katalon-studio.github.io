@@ -53,7 +53,7 @@ You can also use the captured screenshots for visual testing with TestOps Vision
 
 ## Videos
 
-You can also record and watch videos to see what went wrong with failed tests.  
+You can record and watch videos to see what went wrong with failed tests.  
 
 > Notes
 > * You can only record videos for Web UI testing.
