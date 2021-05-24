@@ -3,7 +3,7 @@ title: "Screen Recorder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/screen-recorder-videos.html
 ---
-## Screen Recorder
+## Configure Screen Recorder
 
 Screen Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
