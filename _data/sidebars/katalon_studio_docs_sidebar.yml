@@ -987,6 +987,8 @@ items:
             url: /katalon-studio/docs/screenshots-videos.html
           - title: "Screen Recorder"
             url: katalon-studio/docs/screen-recorder-videos.html  
+          - title: "Screen Recorder"
+            url: katalon-studio/docs/screen-recorder-videos.html  
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
