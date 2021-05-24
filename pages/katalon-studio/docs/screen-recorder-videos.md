@@ -3,7 +3,6 @@ title: "Screen Recorder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/screen-recorder-videos.html
 ---
-## Configure Screen Recorder
 
 Screen Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
@@ -11,13 +10,16 @@ Screen Recorder is currently available for single Test Suite execution only.  To
 
 We recommend the [K-Lite Codec](https://www.codecguide.com/download_kl.htm) to play the recorded screen-based video.
 
+## Configure Screen Recorder
+
 Follow guidelines below to record the screen:
 
 > **If you use macOS, make sure you first enable Katalon Studio for Screen Recording.**
 >
 > Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
 
-**<details><summary>For configuration in version 7.8 and onwards</summary>**
+### For configuration in version 7.8 and onwards
+
 1. Go to **Project** > **Settings** > **Execution** to open the **Execution** view.
 2. In the **During-Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
    
@@ -31,9 +33,7 @@ Follow guidelines below to record the screen:
 * **Video quality**: Low; Medium or High
 4. Click **Apply and Close**.
 
-</details>
-
-**<details><summary>For configuration in versions before 7.8</summary>**
+### For configuration in versions before 7.8
 
 1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
@@ -52,8 +52,6 @@ Follow guidelines below to record the screen:
 * **Video format**: AVI (`.avi`) or MOV (`.mov`)
 * **Video quality**: Low; Medium or High
 4. Click **OK**
-
-</details>
 
 ## View recorded videos
 
