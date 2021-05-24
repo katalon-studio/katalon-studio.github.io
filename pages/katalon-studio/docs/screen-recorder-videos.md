@@ -61,4 +61,4 @@ Click on the *Play* icon in the **Video** column to play the video. Each test st
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
-See also [Browser-based Recorder](katalon-studio/docs/browser-based-recorder-videos.html)
+See also [Browser-based Recorder](katalon-studio/docs/browser-based-recorder-videos.html).
