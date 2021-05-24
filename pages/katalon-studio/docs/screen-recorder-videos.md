@@ -3,46 +3,62 @@ title: "Screen Recorder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/screen-recorder-videos.html
 ---
+## Screen Recorder
 
-## Screenshots
+Screen Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
-### Default configuration
+Screen Recorder is currently available for single Test Suite execution only.  To record parallel executions, please see [Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder).
 
-By default, the test engine captures screenshots automatically upon test failures. This feature is currently applicable to Web UI and Mobile testing. To turn off this function, do as follows:
+We recommend the [K-Lite Codec](https://www.codecguide.com/download_kl.htm) to play the recorded screen-based video.
 
-* For version **7.8 onwards**:
+Follow guidelines below to record the screen:
 
-Go to **Project** > **Settings** > **Execution**. In the displayed **During-Execution Options** panel, uncheck **Take Screenshot when execution failed** and click **Apply and Close**.
+> **If you use macOS, make sure you first enable Katalon Studio for Screen Recording.**
+>
+> Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
 
-* For versions **before 7.8**:
+**<details><summary>For configuration in version 7.8 and onwards</summary>**
+1. Go to **Project** > **Settings** > **Execution** to open the **Execution** view.
+2. In the **During-Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
+   
+   By default, **Browser-based Recorder** for **failed Test Cases only** is selected.
 
-Go to **Project** > **Settings** > **Report**. In the displayed **Report** view, uncheck **Take Screenshot when execution failed** and click **OK**.
+3. Select **Screen Recorder** and specify Video settings based on your preferences. 
 
-### Manual configuration
+   We recommend AVI (`.avi`) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.
 
- If you wish to manually set the conditions for capturing screenshots during tests, you can use the following built-in keywords for Web UI and Mobile testing:
+* **Video format**: AVI (`.avi`) or MOV (`.mov`)
+* **Video quality**: Low; Medium or High
+4. Click **Apply and Close**.
 
- * [[WebUI] Take Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot.html)
- * [[WebUI] Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html) (Available from 7.7)
-* [[WebUI] Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html) (Available from 7.7)
-* [[WebUI] Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html) (Available from 7.7)
-* [[WebUI] Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html) (Available from 7.7)
-* [[WebUI] Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html) (Available from 7.7)
-* [[WebUI] Take Full Page Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot-as-checkpoint.html) (Available from 7.7)
-* [[WebUI] Take Full Page Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot.html) (Available from 7.7)
-* [[Mobile] Take Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot.html)
+</details>
 
-## View captured screenshots
+**<details><summary>For configuration in versions before 7.8</summary>**
 
- When a test fails, you can view the captured screenshots in the image tab of the Test Case's Log by following these steps:
+1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
- 1. Open the test's **Result** tab.
- 2. Select the failed test case.
-3. Click **Show Test Case Details** on the top right corner.
-    
-    The Test Case's Log then appears.
-4. Click on **Image**.
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-143A243A12.png)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" height=330>
+2. Check **Enable Video Recorder during execution** option. 
 
-You can also use the captured screenshots for visual testing with TestOps Vision. Learn more [here](https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557).
+   By default, Katalon Studio only captures **Failed** test cases. However, you can decide to either capture the **Passed** or **Failed** test cases, or both.  
+
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A43A45.png)  
+
+3. Specify Video settings based on your preferences.
+
+   We recommend AVI (`.avi`) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.
+
+* **Video format**: AVI (`.avi`) or MOV (`.mov`)
+* **Video quality**: Low; Medium or High
+4. Click **OK**
+
+</details>
+
+## View recorded videos
+
+After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly. 
+
+Click on the *Play* icon in the **Video** column to play the video. Each test step in a video has a description embedded like a subtitle. For example:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
