@@ -21,7 +21,7 @@ This document reflects the comparison between free and Enterprise-exclusive feat
 			</th>
 			<th data-colwidth="230">
 				<div data-="">
-					<p><strong>Katalon Studio Enterprise</strong></p>
+					<p>Katalon Studio Enterprise</p>
 				</div>
 			</th>
 		</tr>
