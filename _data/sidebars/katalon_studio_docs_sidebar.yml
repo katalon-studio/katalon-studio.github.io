@@ -71,6 +71,8 @@ items:
             url: /katalon-studio/docs/product-availability-matrix.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
+          - title: "Katalon Studio vs Katalon Studio Enterprise Features"
+            url: /katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise
           - title: "Unique Capabilities"
             url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
