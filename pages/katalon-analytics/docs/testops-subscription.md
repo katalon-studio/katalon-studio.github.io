@@ -1,7 +1,7 @@
 ---
 title: "Create TestOps subscriptions"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/testops-subscriptions.html 
+permalink: /katalon-analytics/docs/testops-subscriptions.html 
 description: 
 ---
 
