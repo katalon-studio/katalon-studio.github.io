@@ -1,5 +1,5 @@
 ---
-title: "Katalon Studio vs Katalon Studio Enterprise"
+title: "Katalon Studio vs Katalon Studio Enterprise Features"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html
 ---
