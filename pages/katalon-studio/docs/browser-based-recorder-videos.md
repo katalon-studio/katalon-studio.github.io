@@ -15,7 +15,7 @@ Katalon Studio version **7.8 onwards** supports [screen-based recording](katalon
  > * An active Katalon Studio Enterprise license.
  > * Katalon Studio version 7.8 onwards.
 
-You can use browser-based recording to:  
+You can use browser-based recording feature to:  
 
 * **Record video of browser window only** (even if it's hidden behind another window).
  * **Record video of Headless browser**.
