@@ -1,16 +1,25 @@
 ---
-title: "Screen Recorder"
+title: "Record Screen-based Videos"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/screen-recorder-videos.html
+permalink: katalon-studio/docs/record-screen-based-videos.html
 ---
 
-Screen Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
+You can record and watch videos to see what went wrong with failed tests.  
 
-Screen Recorder is currently available for single Test Suite execution only.  To record parallel executions, please see [Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder).
+> Notes
+> * You can only record videos for Web UI testing.
+
+Katalon Studio version **7.8 onwards** supports screen-based recording and [browser-based recording](katalon-studio/docs/record-browser-based-videos.html). Screen-based recording allows you to see tests run in a local machine while browser-based recording enables you to see tests run in console mode.
+
+## Activate Screen-based Recorder
+
+Screen-based Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
+
+Screen-based Recorder is currently available for single Test Suite execution only.  To record parallel executions, please see [Browser-based Recorder](katalon-studio/docs/record-browser-based-videos.html).
 
 We recommend the [K-Lite Codec](https://www.codecguide.com/download_kl.htm) to play the recorded screen-based video.
 
-## Configure Screen Recorder
+## Configure Screen-based Recorder
 
 Follow guidelines below to record the screen:
 
@@ -33,7 +42,7 @@ Follow guidelines below to record the screen:
 * **Video quality**: Low; Medium or High
 4. Click **Apply and Close**.
 
-### For configuration in versions before 7.8
+**<details><summary>For configuration in versions before 7.8</summary>**
 
 1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
@@ -53,12 +62,12 @@ Follow guidelines below to record the screen:
 * **Video quality**: Low; Medium or High
 4. Click **OK**
 
+ </details>
+
 ## View recorded videos
 
-After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly. 
+After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly.
 
 Click on the *Play* icon in the **Video** column to play the video. Each test step in a video has a description embedded like a subtitle. For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
-
-See also [Browser-based Recorder](katalon-studio/docs/browser-based-recorder-videos.html).
