@@ -68,6 +68,8 @@ Follow guidelines below to record the screen:
 
 After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly.
 
-Click on the *Play* icon in the **Video** column to play the video. Each test step in a video has a description embedded like a subtitle. For example:
+Click on the *Play* icon in the **Video** column to play the video.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
+
+Each test step in a video has a description embedded like a subtitle.
