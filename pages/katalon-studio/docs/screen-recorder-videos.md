@@ -11,8 +11,6 @@ You can record and watch videos to see what went wrong with failed tests.
 
 Katalon Studio version **7.8 onwards** supports screen-based recording and [browser-based recording](katalon-studio/docs/record-browser-based-videos.html). Screen-based recording allows you to see tests run in a local machine while browser-based recording enables you to see tests run in console mode.
 
-## Activate Screen-based Recorder
-
 Screen-based Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
 Screen-based Recorder is currently available for single Test Suite execution only.  To record parallel executions, please see [Browser-based Recorder](katalon-studio/docs/record-browser-based-videos.html).
