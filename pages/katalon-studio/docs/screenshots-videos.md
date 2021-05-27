@@ -25,7 +25,7 @@ You can also use the captured screenshots for visual testing with TestOps Vision
 
 ## Deactivate screenshots
 
-To turn off the default setting, do as follows:
+To turn off the default settings, do as follows:
 
 * For version **7.8 onwards**:
 
