@@ -77,7 +77,7 @@ Click [here](https://avpres.net/FFmpeg/install_Apple.html) for detailed instruct
 
 Click [here](https://linuxize.com/post/how-to-install-ffmpeg-on-ubuntu-18-04/) for detailed instructions.
 
-### For Docker
+### For Docker Image
 
 Katalon Docker Image could be used as a container to execute Katalon Studio tests and write reports to the host's file system.
 
