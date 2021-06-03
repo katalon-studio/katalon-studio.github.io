@@ -36,7 +36,9 @@ To use browser-based recording feature, you need to enable it in Katalon Studio 
    > The Browser-based Video  Recorder function only records failed test cases by default.
 3. Set a window size of 1500x1000 for the browser you record in Project Settings.
 * Go to **Project** > **Settings** > **Desired Capabilities** > **Web UI**. Select **Chrome** or **Chrome Headless** or **Edge Chromium**.
+
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/browser-size.png">
+
    > Learn more about how to set [Desired Capabilities for Web UI](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#chromechrome-headless)
 4. Click **Apply and Close**.
 
@@ -108,6 +110,6 @@ Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build 
 
 Click on the *Play* icon in the **Video** column to play the video.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png" width=100%>
 
 Each test step in a video has a description embedded like a subtitle.
