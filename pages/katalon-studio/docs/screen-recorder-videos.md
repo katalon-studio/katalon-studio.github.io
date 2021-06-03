@@ -13,7 +13,7 @@ Katalon Studio version **7.8 onwards** supports screen-based recording and [brow
 
 Screen-based Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
-Screen-based Recorder is currently available for single Test Suite execution only.  To record parallel executions, please see [Browser-based Recorder](katalon-studio/docs/record-browser-based-videos.html).
+Screen-based Recorder is currently available for single Test Suite execution only.  To record parallel executions, you can follow these instructions instead: [Record Browser-based Videos](katalon-studio/docs/record-browser-based-videos.html).
 
 We recommend the [K-Lite Codec](https://www.codecguide.com/download_kl.htm) to play the recorded screen-based video.
 
@@ -44,14 +44,14 @@ Follow guidelines below to record the screen:
 
 1. After creating a test suite in Katalon Studio, go to **Project** > **Settings** > **Report** to open the **Report** view.
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-143A243A12.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-143A243A12.png" width=100%>
 
 2. Check **Enable Video Recorder during execution** option. 
 
    By default, Katalon Studio only captures **Failed** test cases. However, you can decide to either capture the **Passed** or **Failed** test cases, or both.  
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A43A45.png)  
-
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A43A45.png" width=100%>
+  
 3. Specify Video settings based on your preferences.
 
    We recommend AVI (`.avi`) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.
@@ -68,6 +68,6 @@ After running the test suite, navigate to the **Result** tab. You can see a list
 
 Click on the *Play* icon in the **Video** column to play the video.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png" width=100%>
 
 Each test step in a video has a description embedded like a subtitle.
