@@ -16,7 +16,7 @@ Learn more about [Jira integration](https://docs.katalon.com/katalon-analytics/d
 
 1. Go on Jira page. Click on **Apps** bar and choose **Project Settings**. Select **Katalon Settings**.
 
-    ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.jpg)
+    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.jpg" width=100%>
 
 2. Enter the email address you have registered for your Katalon account.
 
@@ -32,35 +32,35 @@ Learn more about [Jira integration](https://docs.katalon.com/katalon-analytics/d
 
 1. Go to **Configurations** and select **Jira Settings**.
 
-    ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
+    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png" width=100%>
 
 2. Enter Jira URL, Username, and Password.
 
-* Jira Cloud
+    * Jira Cloud
 
-    a. Jira URL must be in the form of `https://<site_name>.atlassian.net`.
+        a. Jira URL must be in the form of `https://<site_name>.atlassian.net`.
 
-    b. Enter the email registered for your Jira Cloud account in **Username**.
+        b. Enter the email registered for your Jira Cloud account in **Username**.
 
-    c. Enter an Atlassian Cloud's API token in **Password**.
+        c. Enter an Atlassian Cloud's API token in **Password**.
 
-    > Notes:
-    >
-    > Instructions for [API tokens](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+        > Notes:
+        >
+        > Instructions for [API tokens](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
 
-* Jira Server
+    * Jira Server
 
-    a. Jira URL must be in the form of `http(s)://domain` without any trailing parts. For example, `/secure`.
+        a. Jira URL must be in the form of `http(s)://domain` without any trailing parts. For example, `/secure`.
 
-    b. Enter your Username in **Username**.
+        b. Enter your Username in **Username**.
 
-    c. Enter your Password.
+        c. Enter your Password.
 
-3. Click **Test Connection** to see if the connection is successful.
+    3. Click **Test Connection** to see if the connection is successful.
 
-4. Click **Save**.
+    4. Click **Save**.
 
-    ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg)
+    <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg" width=100%>
 
 ## Jira Dashboard Gadgets
 
