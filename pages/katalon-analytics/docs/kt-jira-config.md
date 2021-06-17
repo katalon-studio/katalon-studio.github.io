@@ -3,14 +3,16 @@ title: "Jira Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-config.html 
 ---
-Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
 
-## Prerequisites
+Katalon TestOps provides seamless Jira integration, creating several benefits in team collaboration.
 
-* The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
-* You are the owner/admin of Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#strongorganization-level-roles-and-permissionsstrong)
+Learn more about [Jira integration](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html).
 
-## Configuration in Jira
+> Requirements:
+> * You must install [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * You must be the Owner or Admin of an Organization. 
+
+## Configure Jira Settings
 
 1. Navigate to **Katalon Settings** under Apps in Project Settings.
 
