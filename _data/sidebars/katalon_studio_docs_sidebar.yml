@@ -1307,8 +1307,6 @@ items:
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Jira Integration"
             tree:
-              - title: "Jira Releases"
-                url: /katalon-analytics/docs/kt-jira-release.html
               - title: "Jira Settings"
                 url: /katalon-analytics/docs/kt-jira-config.html
               - title: "Jira Dashboard Gadgets"
