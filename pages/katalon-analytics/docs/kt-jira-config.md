@@ -52,6 +52,22 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg)
 
+JIRA Dashboard Gadgets
+Quick tip
+This feature allows you to view the latest results of test cases in Jira Dashboard.
+
+
+Please refer to [this document](https://support.atlassian.com/jira-core-cloud/docs/add-and-customize-a-gadget/) to add a gadget to your Jira dashboard.
+
+Find **Katalon Dashboard** and click **Add gadget**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-gadgets/katalon-gadgets.png" width="" height="">
+
+After successfully adding **Katalon Dashboard**, you will see a table showing the detailed status and duration for each test case.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-gadgets/dashboard.png" width="" height="">
+
+
 ## Next Steps
 
 - View testing progress in [Jira Release](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html), [Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html), [Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html), [Jira Dashboard](https://docs.katalon.com/katalon-analytics/docs/jira-gadgets.html).
