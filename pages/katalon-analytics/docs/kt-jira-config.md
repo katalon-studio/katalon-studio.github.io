@@ -52,7 +52,7 @@ Follow these steps:
 
     > Notes:
     >
-    > You can find out your Organization ID in [Organization Management](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
+    > You can find out your Organization ID in [Organization management](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
 
 6. Click **Save**.
 
