@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-config.html 
 ---
 
-Katalon TestOps provides seamless Jira integration, which creates several benefits in team collaboration.
+Katalon TestOps provides seamless Jira integration, which creates several benefits for more efficient team collaboration.
 
 Learn more about [Jira integration](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html).
 
