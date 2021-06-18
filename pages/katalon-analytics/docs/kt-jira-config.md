@@ -30,7 +30,9 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/jira-soft-project-screen.png" width=100%>
 
-2. Select **Project settings** at the bottom of the left bar, then scroll down the left bar to find the **Katalon Settings** section.
+    Select **Project settings** at the bottom of the left bar.
+
+2. Scroll down the left bar to find the **Katalon Settings** section.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/jira-soft-scrolldown-bar-in-project-settings.png" width=100%>
 
