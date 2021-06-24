@@ -21,7 +21,11 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. 
+
+> **Note**: 
+> 
+> FailureHandling is currently not supported for this keyword.
 
 Returns
 -------
