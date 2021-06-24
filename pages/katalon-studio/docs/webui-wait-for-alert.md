@@ -24,7 +24,7 @@ Parameters
 
 > **Note**: 
 > 
-> Failure Handling is currently not supported for this keyword.
+> FailureHandling is currently not supported for this keyword.
 
 Example
 -------
