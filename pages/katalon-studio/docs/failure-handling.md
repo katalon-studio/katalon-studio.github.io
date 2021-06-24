@@ -54,3 +54,8 @@ FailureHandling.OPTIONAL
 For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png)
+
+Known Issue
+----------------------------------
+
+FailureHandling is currently not supported on all ***Wait*** keywords. When the parameter is used, the keyword is always run passed with log warning, instead of displaying error, failure or status.
