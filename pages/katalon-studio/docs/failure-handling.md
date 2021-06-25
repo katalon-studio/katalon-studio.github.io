@@ -58,4 +58,4 @@ For example:
 Known Issue
 ----------------------------------
 
-FailureHandling is currently not supported on all ***Wait*** keywords. When the parameter is used, the keyword is always run passed with log warning, instead of displaying error, failure or status.
+FailureHandling is currently not supported on all ***Wait*** keywords. When the parameter is used, the test is always resulted as **passed**, with a log warning, instead of being displayed with error or failure status.
