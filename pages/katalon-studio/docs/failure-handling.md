@@ -51,8 +51,7 @@ FailureHandling.OPTIONAL
 ```
 
 For example:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png" width=70%> 
 
 Known Issue
 ----------------------------------
