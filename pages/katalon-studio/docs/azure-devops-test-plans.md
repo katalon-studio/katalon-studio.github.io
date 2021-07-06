@@ -16,7 +16,7 @@ From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure
 
 **Requirements**
 
-* Katalon Studio version 8.0.
+* Katalon Studio version 8.0.0.
 * An active Katalon Studio Enterprise license.
 * Set up Azure DevOps.
 
@@ -27,7 +27,7 @@ You need to enable ADO integration and authenticate your ADO to retrieve and map
 In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**:
 
 1. Select **Enable Intergration** to enable **Authentication** section for editting.
-xs
+
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
@@ -37,7 +37,7 @@ xs
 
 4. Click **Connect** to verify whether Azure DevOps is connected successfully.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" width=100%>
 
 ### Configure the Integration
 
@@ -53,7 +53,7 @@ To configure the integration, do as follows:
 
     - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=100%>
         
 2. Conduct Test Artifacts Mapping.
 
@@ -63,7 +63,7 @@ To configure the integration, do as follows:
 
     - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**. 
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/test-configuration-mapping.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/test-configuration-mapping.png" width=100%>
     
         Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for its configured test points for the test run submission.
 
@@ -71,11 +71,11 @@ To configure the integration, do as follows:
 
         > **What is Test Configuration?**
         >
-        > **A Test Configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
+        > **A Test Configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops).
 
         > **What is Test Point?**
         > 
-        > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
+        > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab).
 
 3. Configure Submission Options.
 
@@ -91,7 +91,7 @@ To configure the integration, do as follows:
 
     	If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Submit test results for multiple test points with the same test case ID**.
 
-	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=70%>
+	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=100%>
 
 
 4. Click **Apply and Close** to save your settings.
@@ -112,7 +112,7 @@ To configure the integration, do as follows:
 
 When the execution finishes, the test run is created, and test results are uploaded automatically to ADO in the format specified as below:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=100%>
 
 ### Dynamically changing test run’s information in CLI
 
@@ -121,7 +121,7 @@ You can change the test plan ID, test run name, and build number of a test run b
 **Requirements**
 
 * An active Katalon Runtime Engine license.
-* Katalon Runtime Engine v8.0.
+* Katalon Runtime Engine version 8.0.0.
 
 <table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
 	<tbody>
@@ -163,7 +163,7 @@ You can change the test plan ID, test run name, and build number of a test run b
 				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
 			</td>
 			<td data-colwidth="253">
-				<p>Get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO..</p>
+				<p>Get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
 			</td>
 			<td data-colwidth="253">
 				<p>N</p>
