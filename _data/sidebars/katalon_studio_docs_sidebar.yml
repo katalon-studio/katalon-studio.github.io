@@ -1261,7 +1261,7 @@ items:
             tree:
               - title: "Upload Test Results automatically from Katalon Studio"
                 url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-              - title: "Upload Test Results manually from Katalon Studio"
+              - title: "Upload Test Results from Katalon Studio"
                 url: /katalon-analytics/docs/project-management-import-KS.html
               - title: "Upload a Test Suite to the Katalon TestOps"
                 url: /katalon-analytics/docs/ks_upload_project_kt.html
