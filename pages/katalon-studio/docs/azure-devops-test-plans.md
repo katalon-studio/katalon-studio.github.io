@@ -83,9 +83,9 @@ To configure the integration, do as follows:
 
 	    > Click **Fetch Test Plans** to fetch the latest test plans list.
 
-	- Enter the required **Test Run Name**. 
+	- Enter the required **Test Run name**. 
 
-		If you want to specify the **Build ID** for test run submitted from Katalon Studio to ADO, enter the **Definition ID**. During runtime, Katalon Studio uses this definition ID to get the latest build ID and pass it to the submitted test run on ADO.
+		If you want to specify the **Build Definition ID** for test run submitted from Katalon Studio to ADO, enter the **Build Definition ID**. During runtime, Katalon Studio uses this definition ID to get the latest build and pass it to the submitted test run on ADO.
 
     - Decide when and what to submit test results.
 
@@ -116,62 +116,69 @@ When the execution finishes, the test run is created, and test results are uploa
 
 ### Dynamically changing test run’s information in CLI
 
-You can change the test plan ID, test run name, and build number of a test run by using the following command-line.
+You can change the test plan ID, test run name, and build definition ID, release definition ID of a test run by using the following command-line.
 
 **Requirements**
 
 * An active Katalon Runtime Engine license.
 * Katalon Runtime Engine version 8.0.0.
 
-<table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
+<table data-number-column=“false” data-layout=“default” data-autosize=“false” data-pm-slice=“1 1 []“>
 	<tbody>
 		<tr>
-			<th data-colwidth="254">
+			<th data-colwidth=“254”>
 				<p>Katalonc Command-line Option</p>
 			</th>
-			<th data-colwidth="253">
+			<th data-colwidth=“253">
 				<p>Description</p>
 			</th>
-			<th data-colwidth="253">
+			<th data-colwidth=“253”>
 				<p>Mandatory?</p>
 			</th>
 		</tr>
 		<tr>
-			<td data-colwidth="254">
+			<td data-colwidth=“254">
 				<p>-adoPlanId=&lt;testplan id&gt;</p>
 			</td>
-			<td data-colwidth="253">
+			<td data-colwidth=“253”>
 				<p>Id of the test plan used for submitting test run(s).</p>
 			</td>
-			<td data-colwidth="253">
+			<td data-colwidth=“253">
 				<p>N</p>
 			</td>
 		</tr>
 		<tr>
-			<td data-colwidth="254">
-				<p>-adoTestRunName="text"</p>
+			<td data-colwidth=“254”>
+				<p>-adoTestRunName=“text”</p>
 			</td>
-			<td data-colwidth="253">
+			<td data-colwidth=“253”>
 				<p>Create test run(s) on ADO with the specified name.</p>
 			</td>
-			<td data-colwidth="253">
+			<td data-colwidth=“253">
 				<p>N</p>
 			</td>
 		</tr>
 		<tr>
-			<td data-colwidth="254">
+			<td data-colwidth=“254”>
 				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
 			</td>
-			<td data-colwidth="253">
-				<p>Get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
+			<td data-colwidth=“253">
+				<p>Get the latest completed Build Definition ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
 			</td>
-			<td data-colwidth="253">
+			<td data-colwidth=“253”>
 				<p>N</p>
 			</td>
+		</tr>
+		<tr>
+			<td data-colwidth=“254">
+				<p>--info -<span data-renderer-mark=“true”>adoReleaseDefID</span>=&lt;DefinitionID&gt;</p>
+			</td>
+			<td data-colwidth=“253">&nbsp;Based on the specified Definition ID, get the latest Release ID and its stage and pass them to Test Run properties on ADO.</td>
+			<td data-colwidth=“253”>N&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
-  
+
 ### Troubleshoot common issues
 
 <table>
