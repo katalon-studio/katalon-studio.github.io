@@ -21,6 +21,8 @@ description:
 
 This section provides information on how to install and activate Katalon Studio.
 
+> Learn more with our Katalon Academy course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases).
+
 ## Installation
 
 ### Environment Requirements
