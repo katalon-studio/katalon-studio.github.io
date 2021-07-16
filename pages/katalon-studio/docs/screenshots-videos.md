@@ -2,6 +2,9 @@
 title: "Capture Screenshots"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/capture-screenshots.html
+redirect_from:
+- "/katalon-studio/docs/screenshots-videos.html"
+
 ---
 
 With Katalon Studio, you can capture screenshots during test execution. Capturing screenshots helps you identify the problem when a test fails. By doing so, you can debug the test script more effectively and quickly.
@@ -50,5 +53,5 @@ If you wish to manually set the conditions for capturing screenshots during test
 * [[Mobile] Take Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot.html)
 
 See also:
-* [Record Screen-based Videos](katalon-studio/docs/record-screen-based-videos.html)
-* [Record Browser-based Videos](katalon-studio/docs/record-browser-based-videos.html)
+* [Record Screen-based Videos](https://docs.katalon.com/katalon-studio/docs/record-screen-based-videos.html)
+* [Record Browser-based Videos](https://docs.katalon.com/katalon-studio/docs/record-browser-based-videos.html)
