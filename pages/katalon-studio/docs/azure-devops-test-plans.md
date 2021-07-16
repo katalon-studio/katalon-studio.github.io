@@ -118,6 +118,10 @@ When the execution finishes, the test run is created, and test results are uploa
 
 You can change the test plan ID, test run name, and build definition ID, release definition ID of a test run by using the following command-line.
 
+> Notes:
+>
+> Release Definition ID is available from version 8.1.0 onwards.
+
 **Requirements**
 
 * An active Katalon Runtime Engine license.
