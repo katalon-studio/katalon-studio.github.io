@@ -1335,7 +1335,7 @@ items:
                url: /katalon-analytics/docs/bdd-settings.html
              - title: "View BDD Test Results"
                url: /katalon-analytics/docs/bdd-test-results.html
-             - title: "Link Executions to Jira Defects"
+             - title: "Link Test Runs to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
              - title: "Link Test Cases to Jira Requirements"
                url: /katalon-analytics/docs/ka-integration-jira.html     
