@@ -2,6 +2,9 @@
 title: "Record Browser-based Videos"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-browser-based-videos.html
+redirect_from:
+- "/katalon-studio/docs/screenshots-videos.html"
+
 ---
 
 You can record and watch videos to see what went wrong with failed tests.  
