@@ -6,10 +6,60 @@ redirect_from:
     - "/katalon-studio/new/all-versions.html"
 description: Release notes 8.x
 ---
-
-## Official Release - Version 8.0.5
+## Official Release - Version 8.1.0
 
 > Download [here](https://www.katalon.com/download/).
+
+### New features
+
+* Introduced the Condition to stop test execution.
+    * Handled Command Builder reflecting the scope of Retry Options only at Test Suite level.
+    * Condition to stop Test Suite Collection executing in Parallel Mode.
+    * CLI option used in Test Suite Collection executing in Sequential Mode.
+    * CLI option used in Test Suite and Handle Validation Rules.
+    * Terminated Execution status, Report and 3rd-party integration.
+* [Mobile] [Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url).
+* Supported Chrome 92.
+* Supported Microsoft Edge (Chromium) 92.
+
+### Enhancements
+
+* Supported built-in Excel keywords. See [doc's name](url)
+* [Mobile] Improved Setup for Mobile testing on macOS.
+* [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
+    * Changed the condition to stop execution, number of retry times, and Consolidated Execution.Log.
+    * Introduced Consolidated Report.
+        * Report View of a Test Suite.
+        * Supported formats: JUnit, HTML, PDF, and CSV.
+        * Updating final status to TestRail.
+        * Sending final results to JIRA.
+        * Sending final results to Azure DevOps Test Plans.
+        * Sending final results to qTest.
+* [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
+* [Kobiton Integration] Supported customizing remote server protocol.
+* [Kobiton Integration] Supported customizing device name.
+* Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
+* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry up to three times after failed activation.
+
+### Bug Fixes
+
+* Fixed UI issues
+    * [macOS Big Sur] Not switching to Object Properties View when 
+    * [macOS Big Sur] Hidden text of selecting items on table and tree.
+    * [macOS Big Sur] Not updating Log Viewer when the execution items were changed on Job Progress.
+    * [Azure DevOps] Broken UI when expanding Submission Options.
+* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+* Bug: [Slack Integration] Failed to connect to Slack.
+* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: Fixed typo issue "Application ID" in Mobile Object Spy.
+* Bug: Project Settings Explorer was not working.
+* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
+* Bug: Could not find iOS dependencies due to default path changes when installing Homebrew.
+* Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
+* Bug: Updated warning message "Object <ObjectId> has been broken. Please fix it before proceeding further."
+* Bug: Fixed Labels in Library Management and added referral link.
+
+## Version 8.0.5
 
 ### Improvements
 
@@ -27,7 +77,7 @@ description: Release notes 8.x
     * The Declaration of the keyword could not be opened.
     * [Cucumber] Custom Keywords in Step definitions were not working.
 * Bug: Resolved activation issue of Enterprise-exclusive plugins.
-* Bug: Test Suite stopped executing after some test cases.
+* Bug: Resolved Test Suite stopped executing after some test cases.
 * Fixed reports parsing issues:
     * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
     * Could not generate reports due to `Null` character in log files.
