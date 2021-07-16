@@ -22,6 +22,10 @@ Parameters
 | second | int | Required | The number of seconds to wait for page load. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
+> **Note**: 
+> 
+> FailureHandling is currently not supported for this keyword.
+
 Example
 -------
 
